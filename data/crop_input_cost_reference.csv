@@ -1,0 +1,11 @@
+Crop,Typical_Yield_Range_t_per_ha,National_Avg_Yield_t_per_ha,Market_Price_Range_USD_per_tonne,Seed_Cost_Range_USD_per_ha,Fertilizer_Cost_Range_USD_per_ha,Labor_Cost_Range_USD_per_ha,Notes
+Maize,1.2 - 4.5,2.1,180 - 320,30 - 60,80 - 180,60 - 140,Staple food; widely grown across all 5 countries
+Cassava,8.0 - 22.0,12.0,50 - 110,20 - 45,40 - 100,80 - 160,Drought-tolerant; key food security crop
+Rice,1.5 - 5.0,2.8,280 - 480,40 - 80,100 - 220,100 - 200,High value; water-intensive
+Groundnut,0.6 - 1.8,1.0,400 - 700,50 - 100,30 - 80,70 - 130,High-value legume; oil and protein crop
+Sorghum,0.8 - 2.5,1.4,150 - 280,20 - 45,50 - 120,50 - 110,Drought-resistant; key in arid zones
+Yam,5.0 - 18.0,10.0,80 - 180,60 - 140,40 - 90,100 - 200,West Africa staple; labor-intensive
+Tomato,8.0 - 30.0,15.0,120 - 280,30 - 70,80 - 180,120 - 250,High-value horticulture; perishable supply chain
+Cowpea,0.4 - 1.2,0.7,350 - 600,25 - 55,20 - 60,50 - 100,Nitrogen-fixing legume; intercropped
+Wheat,1.0 - 3.5,2.0,200 - 380,35 - 70,90 - 200,60 - 130,Highland crop; mainly Ethiopia and Kenya
+Coffee,0.4 - 1.6,0.8,1200 - 2200,80 - 180,120 - 280,150 - 350,Export cash crop; highest value per tonne

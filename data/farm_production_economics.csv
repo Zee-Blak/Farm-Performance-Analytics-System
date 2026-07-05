@@ -1,0 +1,501 @@
+Farm_ID,Country,Region,Farm_System,Irrigation,Season,Crop,Area_Harvested_ha,Yield_t_per_ha,Total_Production_tonnes,Market_Price_USD_per_tonne,Total_Revenue_USD,Seed_Cost_USD_per_ha,Fertilizer_Cost_USD_per_ha,Labor_Cost_USD_per_ha,Other_Cost_USD_per_ha,Total_Variable_Cost_USD_per_ha,Total_Cost_USD,Gross_Margin_USD,ROI_Percent,National_Avg_Yield_t_per_ha,Yield_Gap_t_per_ha,Breakeven_Yield_t_per_ha
+FARM-1001,Nigeria,Kano,Smallholder Commercial,Rainfed,Short Rains 2020,Sorghum,6.02,1.95,11.74,265.98,3122.61,22.17,79.53,51.79,24.84,178.33,1073.55,2049.06,190.87,1.4,0.55,0.6705
+FARM-1002,Uganda,Kampala,Smallholder Commercial,Partial Irrigation,Long Rains 2023,Maize,3.65,2.68,9.78,218.95,2141.33,56.08,155.88,72.77,34.02,318.75,1163.44,977.89,84.05,2.1,0.58,1.4558
+FARM-1003,Ethiopia,Amhara,Smallholder Subsistence,Rainfed,Short Rains 2021,Groundnut,3.35,1.03,3.45,503.19,1736.01,63.23,32.17,97.57,20.62,213.59,715.53,1020.48,142.62,1.0,0.03,0.4245
+FARM-1004,Tanzania,Mwanza,Mixed Farming,Partial Irrigation,Long Rains 2021,Wheat,1.94,1.17,2.27,319.03,724.2,62.06,198.37,119.87,53.99,434.29,842.52,-118.32,-14.04,2.0,-0.83,1.3613
+FARM-1005,Tanzania,Dodoma,Smallholder Commercial,Rainfed,Short Rains 2021,Cowpea,3.16,0.94,2.97,525.46,1560.62,45.51,22.86,81.75,39.04,189.16,597.75,962.87,161.08,0.7,0.24,0.36
+FARM-1006,Kenya,Central,Mixed Farming,Partial Irrigation,Long Rains 2022,Cowpea,2.15,0.66,1.42,542.08,769.75,26.68,52.87,90.25,33.05,202.85,436.13,333.62,76.5,0.7,-0.04,0.3742
+FARM-1007,Nigeria,Kaduna,Smallholder Commercial,Irrigated,Short Rains 2021,Coffee,3.47,1.88,6.51,1658.85,10799.11,106.49,159.46,262.27,26.82,555.04,1925.99,8873.12,460.7,0.8,1.07,0.3346
+FARM-1008,Uganda,Western,Mixed Farming,Rainfed,Long Rains 2022,Coffee,7.98,0.57,4.55,1693.52,7705.52,155.58,257.78,180.57,22.2,616.13,4916.72,2788.8,56.72,0.8,-0.23,0.3638
+FARM-1009,Tanzania,Mbeya,Intensive Commercial,Partial Irrigation,Long Rains 2022,Cassava,7.97,15.41,122.82,108.26,13296.49,41.52,40.69,137.66,45.68,265.55,2116.43,11180.06,528.25,12.0,3.41,2.4529
+FARM-1010,Uganda,Eastern,Mixed Farming,Irrigated,Short Rains 2019,Yam,1.69,6.3,10.65,152.21,1621.04,117.57,88.59,176.2,37.85,420.21,710.15,910.89,128.27,10.0,-3.7,2.7607
+FARM-1011,Nigeria,Enugu,Smallholder Commercial,Rainfed,Long Rains 2023,Sorghum,3.3,1.07,3.53,273.95,967.04,43.06,114.29,85.94,36.99,280.28,924.92,42.12,4.55,1.4,-0.33,1.0231
+FARM-1012,Nigeria,Niger,Smallholder Subsistence,Rainfed,Short Rains 2020,Sorghum,7.09,2.41,17.09,161.13,2753.71,32.15,54.84,95.64,49.46,232.09,1645.52,1108.19,67.35,1.4,1.01,1.4404
+FARM-1013,Kenya,Coast,Smallholder Commercial,Rainfed,Long Rains 2023,Cowpea,4.46,0.89,3.97,591.09,2346.63,52.87,50.21,84.49,47.08,234.65,1046.54,1300.09,124.23,0.7,0.19,0.397
+FARM-1014,Tanzania,Tanga,Intensive Commercial,Rainfed,Short Rains 2022,Yam,2.36,5.83,13.76,82.1,1129.7,104.31,69.42,100.72,46.85,321.3,758.27,371.43,48.98,10.0,-4.17,3.9135
+FARM-1015,Nigeria,Kaduna,Mixed Farming,Rainfed,Long Rains 2019,Cassava,4.36,11.9,51.88,79.12,4104.75,33.48,83.4,150.59,40.93,308.4,1344.62,2760.13,205.27,12.0,-0.1,3.8979
+FARM-1016,Kenya,Eastern,Smallholder Subsistence,Rainfed,Short Rains 2020,Tomato,5.44,15.79,85.9,185.78,15958.5,64.55,85.42,204.95,44.08,399.0,2170.56,13787.94,635.23,15.0,0.79,2.1477
+FARM-1017,Nigeria,Benue,Smallholder Commercial,Rainfed,Short Rains 2019,Yam,1.93,10.83,20.9,122.19,2553.77,82.28,52.49,192.33,34.94,362.04,698.74,1855.03,265.48,10.0,0.83,2.9629
+FARM-1018,Uganda,Central,Smallholder Subsistence,Rainfed,Long Rains 2023,Maize,7.45,4.0,29.8,203.28,6057.74,44.57,101.37,92.08,17.64,255.66,1904.67,4153.07,218.05,2.1,1.9,1.2577
+FARM-1019,Tanzania,Mwanza,Intensive Commercial,Rainfed,Long Rains 2021,Tomato,3.67,29.06,106.65,279.27,29784.15,52.23,151.84,140.12,28.35,372.54,1367.22,28416.93,2078.45,15.0,14.06,1.334
+FARM-1020,Nigeria,Oyo,Mixed Farming,Rainfed,Long Rains 2019,Wheat,0.88,2.19,1.93,365.49,705.4,53.59,96.26,95.55,53.31,298.71,262.86,442.54,168.36,2.0,0.19,0.8173
+FARM-1021,Nigeria,Oyo,Intensive Commercial,Rainfed,Short Rains 2020,Cassava,7.56,15.98,120.81,84.74,10237.44,20.99,44.92,132.59,40.44,238.94,1806.39,8431.05,466.73,12.0,3.98,2.8197
+FARM-1022,Ethiopia,SNNPR,Smallholder Commercial,Rainfed,Short Rains 2021,Groundnut,3.47,1.41,4.89,490.0,2396.1,65.81,67.59,74.35,35.62,243.37,844.49,1551.61,183.73,1.0,0.41,0.4967
+FARM-1023,Uganda,Central,Smallholder Commercial,Partial Irrigation,Long Rains 2023,Cassava,2.49,21.07,52.46,102.85,5395.51,41.98,62.17,92.62,52.52,249.29,620.73,4774.78,769.22,12.0,9.07,2.4238
+FARM-1024,Ethiopia,Sidama,Mixed Farming,Rainfed,Long Rains 2019,Wheat,7.54,1.34,10.1,220.78,2229.88,38.75,150.85,79.06,42.22,310.88,2344.04,-114.16,-4.87,2.0,-0.66,1.4081
+FARM-1025,Ethiopia,Amhara,Intensive Commercial,Rainfed,Long Rains 2023,Sorghum,7.29,2.24,16.33,162.0,2645.46,30.59,69.37,50.21,49.7,199.87,1457.05,1188.41,81.56,1.4,0.84,1.2338
+FARM-1026,Ethiopia,Amhara,Intensive Commercial,Partial Irrigation,Long Rains 2023,Cowpea,0.57,0.46,0.26,570.78,148.4,52.12,41.82,91.73,41.21,226.88,129.32,19.08,14.75,0.7,-0.24,0.3975
+FARM-1027,Kenya,Eastern,Mixed Farming,Rainfed,Long Rains 2019,Rice,7.24,4.29,31.06,452.14,14043.47,75.96,125.21,124.95,19.63,345.75,2503.23,11540.24,461.01,2.8,1.49,0.7647
+FARM-1028,Uganda,Western,Smallholder Commercial,Rainfed,Long Rains 2020,Coffee,7.82,1.37,10.71,2081.42,22292.01,82.48,237.85,216.44,56.89,593.66,4642.42,17649.59,380.18,0.8,0.57,0.2852
+FARM-1029,Kenya,Nyanza,Intensive Commercial,Rainfed,Short Rains 2019,Rice,6.94,2.28,15.82,443.32,7013.32,58.41,136.62,179.53,25.24,399.8,2774.61,4238.71,152.77,2.8,-0.52,0.9018
+FARM-1030,Nigeria,Enugu,Mixed Farming,Rainfed,Long Rains 2022,Groundnut,6.98,1.76,12.28,483.74,5940.33,82.07,49.98,128.87,39.13,300.05,2094.35,3845.98,183.64,1.0,0.76,0.6203
+FARM-1031,Nigeria,Kano,Mixed Farming,Rainfed,Long Rains 2020,Sorghum,1.31,1.54,2.02,244.71,494.31,27.84,92.43,80.69,32.33,233.29,305.61,188.7,61.75,1.4,0.14,0.9533
+FARM-1032,Uganda,Northern,Intensive Commercial,Rainfed,Long Rains 2019,Sorghum,4.4,2.17,9.55,239.29,2285.22,43.51,101.59,61.82,34.41,241.33,1061.85,1223.37,115.21,1.4,0.77,1.0085
+FARM-1033,Ethiopia,Sidama,Mixed Farming,Partial Irrigation,Short Rains 2019,Yam,2.82,10.31,29.07,120.24,3495.38,83.65,46.36,142.04,57.32,329.37,928.82,2566.56,276.32,10.0,0.31,2.7393
+FARM-1034,Kenya,Western,Intensive Commercial,Partial Irrigation,Long Rains 2021,Coffee,6.75,0.76,5.13,1410.18,7234.22,158.58,217.07,214.45,34.88,624.98,4218.61,3015.61,71.48,0.8,-0.04,0.4432
+FARM-1035,Kenya,Western,Smallholder Subsistence,Rainfed,Long Rains 2020,Cowpea,4.37,0.91,3.98,433.8,1726.52,49.55,50.05,83.64,25.11,208.35,910.49,816.03,89.63,0.7,0.21,0.4803
+FARM-1036,Kenya,Central,Smallholder Commercial,Irrigated,Long Rains 2019,Maize,5.08,4.68,23.75,243.76,5789.3,56.58,137.57,117.47,32.28,343.9,1747.01,4042.29,231.38,2.1,2.58,1.4108
+FARM-1037,Tanzania,Arusha,Smallholder Subsistence,Irrigated,Long Rains 2019,Rice,2.14,5.39,11.53,419.18,4833.15,58.58,166.89,191.75,20.46,437.68,936.64,3896.51,416.01,2.8,2.59,1.0441
+FARM-1038,Kenya,Eastern,Mixed Farming,Irrigated,Long Rains 2023,Wheat,5.09,3.5,17.81,290.86,5180.22,64.07,150.27,122.8,48.46,385.6,1962.7,3217.52,163.93,2.0,1.5,1.3257
+FARM-1039,Tanzania,Morogoro,Mixed Farming,Partial Irrigation,Short Rains 2020,Sorghum,4.13,1.21,5.0,207.18,1035.9,37.84,66.41,70.15,55.19,229.59,948.21,87.69,9.25,1.4,-0.19,1.1082
+FARM-1040,Nigeria,Kaduna,Intensive Commercial,Rainfed,Short Rains 2020,Rice,5.8,1.72,9.98,361.52,3607.97,61.7,149.89,120.68,33.91,366.18,2123.84,1484.13,69.88,2.8,-1.08,1.0129
+FARM-1041,Uganda,Gulu,Intensive Commercial,Irrigated,Short Rains 2023,Maize,0.54,2.95,1.59,285.49,453.93,55.6,175.34,93.52,48.64,373.1,201.47,252.46,125.31,2.1,0.85,1.3069
+FARM-1042,Uganda,Kampala,Smallholder Commercial,Rainfed,Short Rains 2022,Groundnut,3.77,0.63,2.38,500.84,1192.0,83.96,50.22,79.9,36.03,250.11,942.91,249.09,26.42,1.0,-0.37,0.4994
+FARM-1043,Kenya,Western,Intensive Commercial,Partial Irrigation,Long Rains 2019,Wheat,4.73,1.07,5.06,315.69,1597.39,39.75,140.79,63.52,32.06,276.12,1306.05,291.34,22.31,2.0,-0.93,0.8747
+FARM-1044,Kenya,Eastern,Intensive Commercial,Rainfed,Short Rains 2021,Yam,6.14,15.82,97.13,105.23,10220.99,66.55,40.97,153.94,60.0,321.46,1973.76,8247.23,417.84,10.0,5.82,3.0548
+FARM-1045,Ethiopia,Amhara,Smallholder Subsistence,Rainfed,Long Rains 2019,Cassava,2.0,8.29,16.58,59.14,980.54,23.16,80.17,125.12,24.81,253.26,506.52,474.02,93.58,12.0,-3.71,4.2824
+FARM-1046,Ethiopia,SNNPR,Smallholder Subsistence,Rainfed,Short Rains 2023,Rice,7.74,1.88,14.55,285.14,4148.79,52.48,181.28,195.82,32.85,462.43,3579.21,569.58,15.91,2.8,-0.92,1.6218
+FARM-1047,Kenya,Rift Valley,Smallholder Subsistence,Rainfed,Short Rains 2020,Coffee,6.88,1.12,7.71,1321.06,10185.37,178.38,245.22,219.44,34.28,677.32,4659.96,5525.41,118.57,0.8,0.32,0.5127
+FARM-1048,Ethiopia,Oromia,Smallholder Subsistence,Irrigated,Short Rains 2021,Wheat,6.67,1.57,10.51,372.94,3919.6,57.25,181.16,109.51,34.6,382.52,2551.41,1368.19,53.62,2.0,-0.43,1.0257
+FARM-1049,Uganda,Gulu,Intensive Commercial,Irrigated,Short Rains 2023,Sorghum,3.77,2.55,9.61,184.89,1776.79,41.29,108.15,55.2,54.67,259.31,977.6,799.19,81.75,1.4,1.15,1.4025
+FARM-1050,Kenya,Eastern,Intensive Commercial,Rainfed,Short Rains 2023,Coffee,0.72,1.42,1.02,1381.84,1409.48,101.21,247.65,218.07,54.61,621.54,447.51,961.97,214.96,0.8,0.62,0.4498
+FARM-1051,Ethiopia,Sidama,Smallholder Commercial,Rainfed,Long Rains 2023,Maize,2.31,2.54,5.87,257.72,1512.82,37.21,127.61,116.95,35.17,316.94,732.13,780.69,106.63,2.1,0.44,1.2298
+FARM-1052,Nigeria,Kano,Intensive Commercial,Rainfed,Short Rains 2020,Sorghum,2.8,1.79,5.01,211.52,1059.72,33.27,79.79,94.76,29.89,237.71,665.59,394.13,59.22,1.4,0.39,1.1238
+FARM-1053,Tanzania,Dodoma,Smallholder Commercial,Rainfed,Long Rains 2021,Sorghum,5.91,1.34,7.92,246.57,1952.83,43.77,98.31,61.49,48.24,251.81,1488.2,464.63,31.22,1.4,-0.06,1.0213
+FARM-1054,Ethiopia,Afar,Mixed Farming,Rainfed,Long Rains 2023,Coffee,6.74,0.76,5.12,1560.88,7991.71,110.23,233.28,175.32,17.05,535.88,3611.83,4379.88,121.26,0.8,-0.04,0.3433
+FARM-1055,Nigeria,Oyo,Intensive Commercial,Rainfed,Long Rains 2020,Sorghum,7.05,1.78,12.55,211.02,2648.3,31.01,62.91,53.08,57.35,204.35,1440.67,1207.63,83.82,1.4,0.38,0.9684
+FARM-1056,Tanzania,Mwanza,Intensive Commercial,Rainfed,Long Rains 2022,Cassava,4.83,17.61,85.06,59.1,5027.05,40.28,96.95,86.81,26.17,250.21,1208.51,3818.54,315.97,12.0,5.61,4.2337
+FARM-1057,Uganda,Western,Smallholder Commercial,Partial Irrigation,Short Rains 2023,Coffee,3.35,1.49,4.99,1497.35,7471.78,138.85,188.61,263.73,17.71,608.9,2039.82,5431.96,266.3,0.8,0.69,0.4067
+FARM-1058,Nigeria,Kaduna,Smallholder Subsistence,Rainfed,Long Rains 2021,Groundnut,2.3,1.26,2.9,446.96,1296.18,70.43,64.47,98.19,16.47,249.56,573.99,722.19,125.82,1.0,0.26,0.5583
+FARM-1059,Ethiopia,Afar,Smallholder Subsistence,Rainfed,Short Rains 2022,Sorghum,7.43,2.14,15.9,231.26,3677.03,36.53,115.36,75.51,39.51,266.91,1983.14,1693.89,85.41,1.4,0.74,1.1542
+FARM-1060,Kenya,Nyanza,Smallholder Subsistence,Rainfed,Short Rains 2019,Rice,6.44,3.58,23.06,444.85,10258.24,76.85,152.7,146.87,28.68,405.1,2608.84,7649.4,293.21,2.8,0.78,0.9106
+FARM-1061,Tanzania,Dodoma,Intensive Commercial,Irrigated,Long Rains 2023,Wheat,1.1,1.38,1.51,277.77,419.43,46.28,117.54,66.39,58.29,288.5,317.35,102.08,32.17,2.0,-0.62,1.0386
+FARM-1062,Uganda,Kampala,Smallholder Subsistence,Rainfed,Long Rains 2021,Maize,4.03,3.35,13.5,308.25,4161.38,35.44,138.53,110.78,37.13,321.88,1297.18,2864.2,220.8,2.1,1.25,1.0442
+FARM-1063,Nigeria,Benue,Mixed Farming,Rainfed,Long Rains 2022,Yam,5.53,16.15,89.31,112.98,10090.24,115.49,54.41,194.52,51.61,416.03,2300.65,7789.59,338.58,10.0,6.15,3.6823
+FARM-1064,Uganda,Central,Mixed Farming,Rainfed,Short Rains 2019,Cowpea,2.92,1.18,3.45,451.04,1556.09,40.44,59.52,82.88,39.42,222.26,649.0,907.09,139.77,0.7,0.48,0.4928
+FARM-1065,Tanzania,Mwanza,Mixed Farming,Partial Irrigation,Long Rains 2023,Groundnut,6.17,1.35,8.33,628.0,5231.24,60.18,57.46,125.66,34.72,278.02,1715.38,3515.86,204.96,1.0,0.35,0.4427
+FARM-1066,Tanzania,Mwanza,Smallholder Commercial,Rainfed,Short Rains 2023,Maize,2.83,1.25,3.54,237.12,839.4,36.74,164.14,69.08,57.62,327.58,927.05,-87.65,-9.45,2.1,-0.85,1.3815
+FARM-1067,Kenya,Eastern,Mixed Farming,Irrigated,Long Rains 2023,Sorghum,6.76,3.09,20.87,181.69,3791.87,33.78,76.85,105.31,37.87,253.81,1715.76,2076.11,121.0,1.4,1.69,1.3969
+FARM-1068,Kenya,Rift Valley,Mixed Farming,Partial Irrigation,Long Rains 2022,Sorghum,2.5,0.8,2.0,244.39,488.78,40.94,90.59,89.6,53.94,275.07,687.67,-198.89,-28.92,1.4,-0.6,1.1255
+FARM-1069,Tanzania,Mbeya,Mixed Farming,Partial Irrigation,Short Rains 2021,Cowpea,6.22,0.7,4.35,583.21,2536.96,51.09,59.23,61.94,32.23,204.49,1271.93,1265.03,99.46,0.7,0.0,0.3506
+FARM-1070,Tanzania,Mwanza,Intensive Commercial,Irrigated,Short Rains 2022,Yam,7.91,19.12,151.28,145.2,21965.86,72.17,88.24,112.62,58.44,331.47,2621.93,19343.93,737.77,10.0,9.12,2.2829
+FARM-1071,Ethiopia,Oromia,Intensive Commercial,Rainfed,Short Rains 2019,Cowpea,5.92,0.73,4.32,513.7,2219.18,29.63,38.78,98.46,30.24,197.11,1166.89,1052.29,90.18,0.7,0.03,0.3837
+FARM-1072,Tanzania,Tanga,Intensive Commercial,Rainfed,Short Rains 2021,Cassava,5.2,20.42,106.18,79.28,8417.95,33.53,77.05,98.78,45.8,255.16,1326.83,7091.12,534.44,12.0,8.42,3.2185
+FARM-1073,Ethiopia,Amhara,Smallholder Subsistence,Rainfed,Long Rains 2022,Cassava,3.83,17.72,67.87,104.21,7072.73,21.15,87.77,103.47,31.87,244.26,935.52,6137.21,656.02,12.0,5.72,2.3439
+FARM-1074,Kenya,Central,Smallholder Commercial,Rainfed,Long Rains 2022,Wheat,1.81,2.52,4.56,268.86,1226.0,58.91,144.74,100.82,25.45,329.92,597.16,628.84,105.31,2.0,0.52,1.2271
+FARM-1075,Ethiopia,Tigray,Intensive Commercial,Rainfed,Long Rains 2019,Sorghum,5.58,1.07,5.97,207.42,1238.3,28.64,91.13,88.34,34.09,242.2,1351.48,-113.18,-8.37,1.4,-0.33,1.1677
+FARM-1076,Ethiopia,Tigray,Intensive Commercial,Irrigated,Short Rains 2020,Sorghum,1.3,1.81,2.36,196.66,464.12,27.4,98.95,51.32,52.35,230.02,299.03,165.09,55.21,1.4,0.41,1.1696
+FARM-1077,Tanzania,Dodoma,Smallholder Subsistence,Partial Irrigation,Short Rains 2023,Maize,6.09,3.95,24.06,306.41,7372.22,53.27,103.01,124.15,24.86,305.29,1859.22,5513.0,296.52,2.1,1.85,0.9963
+FARM-1078,Kenya,Western,Smallholder Subsistence,Rainfed,Long Rains 2020,Sorghum,2.82,1.55,4.37,225.34,984.74,38.31,56.31,67.71,48.64,210.97,594.94,389.8,65.52,1.4,0.15,0.9362
+FARM-1079,Kenya,Central,Mixed Farming,Partial Irrigation,Long Rains 2023,Rice,4.26,2.45,10.44,312.91,3266.78,76.56,213.3,196.74,28.28,514.88,2193.39,1073.39,48.94,2.8,-0.35,1.6455
+FARM-1080,Ethiopia,Oromia,Smallholder Commercial,Rainfed,Short Rains 2019,Cowpea,6.95,0.98,6.81,594.99,4051.88,54.02,52.18,68.29,50.58,225.07,1564.24,2487.64,159.03,0.7,0.28,0.3783
+FARM-1081,Nigeria,Niger,Intensive Commercial,Rainfed,Short Rains 2019,Wheat,5.55,2.68,14.87,305.22,4538.62,63.78,193.43,67.58,25.52,350.31,1944.22,2594.4,133.44,2.0,0.68,1.1477
+FARM-1082,Nigeria,Oyo,Smallholder Commercial,Rainfed,Short Rains 2021,Wheat,5.27,2.16,11.38,326.19,3712.04,57.72,102.83,63.17,16.67,240.39,1266.86,2445.18,193.01,2.0,0.16,0.737
+FARM-1083,Tanzania,Mwanza,Smallholder Commercial,Irrigated,Short Rains 2020,Cassava,3.9,21.74,84.78,94.59,8019.34,43.65,65.15,139.38,21.95,270.13,1053.51,6965.83,661.2,12.0,9.74,2.8558
+FARM-1084,Tanzania,Tanga,Intensive Commercial,Rainfed,Short Rains 2022,Cassava,0.75,13.19,9.89,76.6,757.57,43.76,91.33,87.95,45.86,268.9,201.67,555.9,275.65,12.0,1.19,3.5104
+FARM-1085,Uganda,Gulu,Intensive Commercial,Rainfed,Long Rains 2019,Yam,1.92,6.59,12.65,164.8,2084.72,96.38,73.14,164.17,41.87,375.56,721.08,1363.64,189.11,10.0,-3.41,2.2789
+FARM-1086,Nigeria,Kano,Smallholder Commercial,Partial Irrigation,Short Rains 2020,Yam,2.04,15.79,32.21,135.42,4361.88,106.91,80.65,123.3,49.85,360.71,735.85,3626.03,492.77,10.0,5.79,2.6636
+FARM-1087,Uganda,Central,Smallholder Commercial,Partial Irrigation,Long Rains 2020,Sorghum,2.38,1.1,2.62,235.94,618.16,20.64,51.04,97.4,25.71,194.79,463.6,154.56,33.34,1.4,-0.3,0.8256
+FARM-1088,Ethiopia,Oromia,Smallholder Subsistence,Rainfed,Long Rains 2021,Rice,6.06,3.34,20.24,429.13,8685.59,59.05,193.36,151.32,19.91,423.64,2567.26,6118.33,238.32,2.8,0.54,0.9872
+FARM-1089,Uganda,Northern,Mixed Farming,Irrigated,Long Rains 2019,Coffee,5.33,0.55,2.93,2198.59,6441.87,164.73,188.2,171.59,47.06,571.58,3046.52,3395.35,111.45,0.8,-0.25,0.26
+FARM-1090,Tanzania,Mwanza,Smallholder Commercial,Rainfed,Short Rains 2021,Cassava,1.45,16.74,24.27,85.12,2065.86,37.8,62.85,127.79,28.27,256.71,372.23,1693.63,455.0,12.0,4.74,3.0159
+FARM-1091,Uganda,Kampala,Smallholder Subsistence,Partial Irrigation,Short Rains 2019,Tomato,5.91,12.73,75.23,192.25,14462.97,39.14,113.89,178.95,33.72,365.7,2161.29,12301.68,569.18,15.0,-2.27,1.9022
+FARM-1092,Nigeria,Niger,Mixed Farming,Rainfed,Short Rains 2021,Tomato,7.65,23.11,176.79,195.88,34629.63,33.65,88.54,176.14,48.51,346.84,2653.33,31976.3,1205.14,15.0,8.11,1.7707
+FARM-1093,Ethiopia,Amhara,Mixed Farming,Rainfed,Long Rains 2019,Wheat,3.58,3.18,11.38,369.4,4203.77,49.8,190.74,63.6,27.94,332.08,1188.85,3014.92,253.6,2.0,1.18,0.899
+FARM-1094,Ethiopia,SNNPR,Smallholder Commercial,Rainfed,Short Rains 2023,Cassava,5.43,11.14,60.49,56.49,3417.08,41.13,62.05,141.01,40.83,285.02,1547.66,1869.42,120.79,12.0,-0.86,5.0455
+FARM-1095,Tanzania,Mbeya,Smallholder Subsistence,Partial Irrigation,Short Rains 2023,Coffee,7.47,1.4,10.46,1467.45,15349.53,98.04,232.43,211.8,30.29,572.56,4277.02,11072.51,258.88,0.8,0.6,0.3902
+FARM-1096,Nigeria,Kaduna,Intensive Commercial,Rainfed,Short Rains 2023,Rice,1.56,3.72,5.8,286.13,1659.55,69.84,125.82,141.98,30.34,367.98,574.05,1085.5,189.1,2.8,0.92,1.2861
+FARM-1097,Ethiopia,SNNPR,Smallholder Subsistence,Rainfed,Short Rains 2023,Yam,1.67,14.81,24.73,84.98,2101.56,66.53,62.16,142.4,42.32,313.41,523.39,1578.17,301.53,10.0,4.81,3.688
+FARM-1098,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Long Rains 2023,Groundnut,3.72,0.94,3.5,603.55,2112.42,74.33,63.36,72.73,32.79,243.21,904.74,1207.68,133.48,1.0,-0.06,0.403
+FARM-1099,Uganda,Central,Mixed Farming,Rainfed,Short Rains 2020,Maize,6.26,3.72,23.29,220.52,5135.91,33.6,129.74,94.45,20.81,278.6,1744.04,3391.87,194.48,2.1,1.62,1.2634
+FARM-1100,Uganda,Gulu,Mixed Farming,Rainfed,Long Rains 2023,Groundnut,3.48,1.49,5.19,530.87,2755.22,72.99,33.89,88.78,34.32,229.98,800.33,1954.89,244.26,1.0,0.49,0.4332
+FARM-1101,Tanzania,Tanga,Smallholder Subsistence,Irrigated,Long Rains 2021,Tomato,0.66,18.93,12.49,248.21,3100.14,54.73,163.2,239.57,18.97,476.47,314.47,2785.67,885.83,15.0,3.93,1.9196
+FARM-1102,Nigeria,Kaduna,Intensive Commercial,Partial Irrigation,Short Rains 2023,Tomato,1.09,27.15,29.59,239.33,7081.77,38.86,157.91,129.93,43.5,370.2,403.52,6678.25,1655.0,15.0,12.15,1.5468
+FARM-1103,Uganda,Kampala,Mixed Farming,Rainfed,Short Rains 2021,Groundnut,2.27,0.78,1.77,459.18,812.75,80.12,68.01,109.33,22.97,280.43,636.58,176.17,27.67,1.0,-0.22,0.6107
+FARM-1104,Tanzania,Morogoro,Intensive Commercial,Partial Irrigation,Short Rains 2023,Coffee,5.32,1.58,8.41,1523.21,12810.2,177.1,170.58,237.95,36.1,621.73,3307.6,9502.6,287.3,0.8,0.78,0.4082
+FARM-1105,Ethiopia,SNNPR,Mixed Farming,Partial Irrigation,Long Rains 2019,Coffee,1.06,0.95,1.01,1237.61,1249.99,116.87,165.93,278.93,58.98,620.71,657.95,592.04,89.98,0.8,0.15,0.5015
+FARM-1106,Nigeria,Oyo,Intensive Commercial,Irrigated,Long Rains 2023,Coffee,4.85,1.94,9.4,1938.92,18225.85,84.1,265.45,264.33,23.47,637.35,3091.15,15134.7,489.61,0.8,1.14,0.3287
+FARM-1107,Uganda,Western,Smallholder Subsistence,Irrigated,Long Rains 2020,Wheat,1.28,4.06,5.2,261.82,1361.46,60.0,145.5,72.08,26.15,303.73,388.77,972.69,250.2,2.0,2.06,1.1601
+FARM-1108,Tanzania,Morogoro,Smallholder Commercial,Rainfed,Long Rains 2023,Wheat,3.3,1.71,5.64,273.58,1542.99,46.84,155.77,115.25,44.13,361.99,1194.57,348.42,29.17,2.0,-0.29,1.3232
+FARM-1109,Nigeria,Niger,Intensive Commercial,Rainfed,Long Rains 2023,Cassava,2.39,19.92,47.61,107.86,5135.21,35.07,49.02,86.52,44.86,215.47,514.97,4620.24,897.19,12.0,7.92,1.9977
+FARM-1110,Ethiopia,SNNPR,Smallholder Subsistence,Rainfed,Long Rains 2020,Tomato,4.69,22.16,103.93,172.56,17934.16,35.11,150.28,243.12,59.87,488.38,2290.5,15643.66,682.98,15.0,7.16,2.8302
+FARM-1111,Uganda,Central,Mixed Farming,Rainfed,Long Rains 2023,Tomato,3.22,11.97,38.54,154.27,5945.57,67.91,128.63,149.45,21.19,367.18,1182.32,4763.25,402.87,15.0,-3.03,2.3801
+FARM-1112,Nigeria,Niger,Smallholder Subsistence,Rainfed,Long Rains 2023,Cassava,7.07,16.65,117.72,85.83,10103.91,23.86,50.85,135.43,43.11,253.25,1790.48,8313.43,464.31,12.0,4.65,2.9506
+FARM-1113,Kenya,Coast,Intensive Commercial,Rainfed,Long Rains 2019,Cowpea,5.57,0.59,3.29,461.05,1516.85,33.55,49.94,72.45,39.03,194.97,1085.98,430.87,39.68,0.7,-0.11,0.4229
+FARM-1114,Ethiopia,Tigray,Intensive Commercial,Irrigated,Short Rains 2021,Groundnut,6.27,1.91,11.99,550.87,6604.93,70.93,38.1,81.98,42.21,233.22,1462.29,5142.64,351.68,1.0,0.91,0.4234
+FARM-1115,Ethiopia,Oromia,Smallholder Subsistence,Partial Irrigation,Short Rains 2021,Cowpea,6.88,0.63,4.33,540.78,2341.58,33.18,56.21,57.37,34.69,181.45,1248.38,1093.2,87.57,0.7,-0.07,0.3355
+FARM-1116,Kenya,Eastern,Intensive Commercial,Rainfed,Long Rains 2019,Yam,3.47,9.86,34.21,118.62,4057.99,66.53,51.23,131.87,19.46,269.09,933.74,3124.25,334.6,10.0,-0.14,2.2685
+FARM-1117,Ethiopia,Amhara,Mixed Farming,Irrigated,Long Rains 2019,Rice,5.72,2.49,14.23,421.11,5992.4,57.94,100.63,107.92,26.52,293.01,1676.02,4316.38,257.54,2.8,-0.31,0.6958
+FARM-1118,Kenya,Western,Intensive Commercial,Rainfed,Long Rains 2023,Coffee,6.32,0.69,4.36,1321.85,5763.27,103.84,222.23,274.56,17.83,618.46,3908.67,1854.6,47.45,0.8,-0.11,0.4679
+FARM-1119,Tanzania,Mbeya,Smallholder Commercial,Rainfed,Long Rains 2019,Wheat,2.68,1.0,2.68,263.51,706.21,54.97,110.6,106.78,38.56,310.91,833.24,-127.03,-15.25,2.0,-1.0,1.1799
+FARM-1120,Ethiopia,Oromia,Smallholder Subsistence,Irrigated,Long Rains 2023,Wheat,7.05,1.39,9.78,269.64,2637.08,48.07,172.2,85.0,18.04,323.31,2279.34,357.74,15.69,2.0,-0.61,1.199
+FARM-1121,Kenya,Coast,Mixed Farming,Rainfed,Short Rains 2023,Cassava,0.83,15.64,12.98,98.81,1282.55,24.38,86.75,117.17,46.29,274.59,227.91,1054.64,462.74,12.0,3.64,2.779
+FARM-1122,Kenya,Central,Smallholder Subsistence,Rainfed,Short Rains 2022,Cassava,2.01,19.08,38.35,103.15,3955.8,27.89,58.6,111.86,51.69,250.04,502.58,3453.22,687.1,12.0,7.08,2.424
+FARM-1123,Tanzania,Dodoma,Mixed Farming,Rainfed,Short Rains 2020,Maize,6.97,1.36,9.48,271.8,2576.66,38.2,159.93,94.96,33.0,326.09,2272.85,303.81,13.37,2.1,-0.74,1.1997
+FARM-1124,Tanzania,Morogoro,Intensive Commercial,Irrigated,Long Rains 2020,Yam,3.26,19.2,62.59,106.67,6676.48,66.61,61.22,143.06,59.78,330.67,1077.98,5598.5,519.35,10.0,9.2,3.0999
+FARM-1125,Kenya,Western,Smallholder Subsistence,Rainfed,Short Rains 2021,Sorghum,2.96,1.3,3.85,207.97,800.68,37.94,61.67,76.63,35.12,211.36,625.63,175.05,27.98,1.4,-0.1,1.0163
+FARM-1126,Ethiopia,Sidama,Smallholder Subsistence,Rainfed,Long Rains 2021,Tomato,5.53,16.94,93.68,202.09,18931.79,60.0,96.0,124.05,53.19,333.24,1842.82,17088.97,927.33,15.0,1.94,1.649
+FARM-1127,Tanzania,Mwanza,Smallholder Commercial,Rainfed,Short Rains 2019,Rice,3.22,4.82,15.52,286.48,4446.17,46.14,153.99,137.1,34.98,372.21,1198.52,3247.65,270.97,2.8,2.02,1.2993
+FARM-1128,Nigeria,Oyo,Mixed Farming,Irrigated,Long Rains 2023,Rice,2.86,3.1,8.87,472.1,4187.53,41.04,122.33,151.77,56.11,371.25,1061.77,3125.76,294.39,2.8,0.3,0.7864
+FARM-1129,Nigeria,Niger,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Sorghum,2.64,2.36,6.23,213.86,1332.35,23.07,109.7,77.12,55.44,265.33,700.47,631.88,90.21,1.4,0.96,1.2407
+FARM-1130,Tanzania,Mwanza,Smallholder Subsistence,Partial Irrigation,Short Rains 2021,Yam,4.57,16.59,75.82,165.14,12520.91,116.94,86.37,163.77,50.72,417.8,1909.35,10611.56,555.77,10.0,6.59,2.53
+FARM-1131,Uganda,Northern,Smallholder Commercial,Rainfed,Short Rains 2020,Cassava,6.43,8.37,53.82,83.24,4479.98,29.22,88.22,124.13,42.54,284.11,1826.83,2653.15,145.23,12.0,-3.63,3.4131
+FARM-1132,Nigeria,Kano,Intensive Commercial,Partial Irrigation,Long Rains 2022,Sorghum,3.58,1.5,5.37,224.74,1206.85,23.13,72.19,54.45,35.96,185.73,664.91,541.94,81.51,1.4,0.1,0.8264
+FARM-1133,Uganda,Eastern,Smallholder Commercial,Rainfed,Long Rains 2023,Rice,3.74,4.69,17.54,291.08,5105.54,44.97,118.36,116.47,29.52,309.32,1156.86,3948.68,341.33,2.8,1.89,1.0627
+FARM-1134,Kenya,Nyanza,Smallholder Subsistence,Rainfed,Long Rains 2021,Wheat,1.97,3.39,6.68,249.4,1665.99,56.88,157.59,66.54,43.84,324.85,639.95,1026.04,160.33,2.0,1.39,1.3025
+FARM-1135,Uganda,Kampala,Mixed Farming,Partial Irrigation,Long Rains 2020,Rice,0.81,4.52,3.66,296.24,1084.24,77.94,192.52,126.47,24.49,421.42,341.35,742.89,217.63,2.8,1.72,1.4226
+FARM-1136,Uganda,Western,Intensive Commercial,Partial Irrigation,Long Rains 2019,Coffee,2.67,1.55,4.14,1682.94,6967.37,160.47,229.6,209.49,18.28,617.84,1649.63,5317.74,322.36,0.8,0.75,0.3671
+FARM-1137,Nigeria,Kaduna,Intensive Commercial,Irrigated,Long Rains 2022,Cowpea,2.03,1.11,2.26,428.15,967.62,46.55,49.37,93.04,58.89,247.85,503.14,464.48,92.32,0.7,0.41,0.5789
+FARM-1138,Kenya,Nyanza,Smallholder Subsistence,Rainfed,Long Rains 2023,Wheat,2.31,1.31,3.03,280.93,851.22,39.93,95.57,126.18,53.89,315.57,728.97,122.25,16.77,2.0,-0.69,1.1233
+FARM-1139,Tanzania,Arusha,Mixed Farming,Rainfed,Short Rains 2021,Rice,6.22,3.24,20.15,382.94,7716.24,59.95,137.02,102.32,57.54,356.83,2219.48,5496.76,247.66,2.8,0.44,0.9318
+FARM-1140,Uganda,Western,Mixed Farming,Rainfed,Short Rains 2020,Groundnut,0.88,1.19,1.05,664.7,697.94,82.71,53.53,102.2,53.12,291.56,256.57,441.37,172.03,1.0,0.19,0.4386
+FARM-1141,Tanzania,Arusha,Intensive Commercial,Rainfed,Short Rains 2021,Sorghum,0.84,0.89,0.75,223.04,167.28,29.06,70.2,73.18,35.27,207.71,174.48,-7.2,-4.13,1.4,-0.51,0.9313
+FARM-1142,Uganda,Eastern,Smallholder Subsistence,Rainfed,Short Rains 2023,Coffee,7.81,0.87,6.79,1994.9,13545.37,113.91,270.23,300.99,23.96,709.09,5537.99,8007.38,144.59,0.8,0.07,0.3555
+FARM-1143,Uganda,Western,Smallholder Subsistence,Rainfed,Long Rains 2019,Wheat,1.53,1.83,2.8,285.27,798.76,50.99,156.69,96.09,29.76,333.53,510.3,288.46,56.53,2.0,-0.17,1.1692
+FARM-1144,Uganda,Eastern,Mixed Farming,Partial Irrigation,Long Rains 2022,Rice,3.02,4.4,13.29,386.47,5136.19,68.35,135.97,181.57,31.58,417.47,1260.76,3875.43,307.39,2.8,1.6,1.0802
+FARM-1145,Nigeria,Benue,Smallholder Subsistence,Partial Irrigation,Long Rains 2021,Coffee,4.06,1.56,6.33,1982.9,12551.76,157.62,212.42,294.28,41.26,705.58,2864.65,9687.11,338.16,0.8,0.76,0.3558
+FARM-1146,Kenya,Western,Smallholder Commercial,Rainfed,Long Rains 2022,Coffee,0.74,1.54,1.14,1309.9,1493.29,81.89,170.19,180.29,46.07,478.44,354.05,1139.24,321.77,0.8,0.74,0.3652
+FARM-1147,Tanzania,Mbeya,Smallholder Subsistence,Rainfed,Short Rains 2022,Coffee,4.39,1.07,4.7,2198.12,10331.16,127.84,180.29,341.34,35.68,685.15,3007.81,7323.35,243.48,0.8,0.27,0.3117
+FARM-1148,Uganda,Eastern,Mixed Farming,Partial Irrigation,Short Rains 2021,Wheat,4.13,3.39,14.0,250.22,3503.08,45.45,193.56,128.76,49.7,417.47,1724.15,1778.93,103.18,2.0,1.39,1.6684
+FARM-1149,Kenya,Coast,Intensive Commercial,Rainfed,Short Rains 2021,Cowpea,4.7,1.15,5.4,530.42,2864.27,33.63,42.94,77.16,55.31,209.04,982.49,1881.78,191.53,0.7,0.45,0.3941
+FARM-1150,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Long Rains 2021,Rice,7.66,1.78,13.63,464.8,6335.22,66.24,189.68,121.4,52.26,429.58,3290.58,3044.64,92.53,2.8,-1.02,0.9242
+FARM-1151,Ethiopia,Sidama,Smallholder Subsistence,Partial Irrigation,Long Rains 2020,Sorghum,6.06,1.21,7.33,156.6,1147.88,42.63,65.8,63.97,19.51,191.91,1162.97,-15.09,-1.3,1.4,-0.19,1.2255
+FARM-1152,Ethiopia,Afar,Smallholder Commercial,Rainfed,Short Rains 2019,Cowpea,7.73,1.18,9.12,389.49,3552.15,44.59,55.23,73.78,44.27,217.87,1684.14,1868.01,110.92,0.7,0.48,0.5594
+FARM-1153,Ethiopia,SNNPR,Smallholder Subsistence,Partial Irrigation,Long Rains 2019,Sorghum,2.24,2.06,4.61,260.54,1201.09,20.93,114.5,75.07,52.69,263.19,589.55,611.54,103.73,1.4,0.66,1.0102
+FARM-1154,Nigeria,Benue,Mixed Farming,Rainfed,Long Rains 2020,Cowpea,0.57,0.85,0.48,376.83,180.88,54.49,31.38,99.45,39.45,224.77,128.12,52.76,41.18,0.7,0.15,0.5965
+FARM-1155,Tanzania,Arusha,Mixed Farming,Rainfed,Short Rains 2022,Wheat,6.57,1.83,12.02,331.6,3985.83,57.69,169.05,60.99,30.17,317.9,2088.6,1897.23,90.84,2.0,-0.17,0.9587
+FARM-1156,Ethiopia,Sidama,Intensive Commercial,Irrigated,Long Rains 2020,Groundnut,4.36,0.88,3.82,600.78,2294.98,59.24,37.03,89.42,26.16,211.85,923.67,1371.31,148.46,1.0,-0.12,0.3526
+FARM-1157,Ethiopia,Tigray,Mixed Farming,Rainfed,Short Rains 2022,Groundnut,2.76,1.47,4.06,403.43,1637.93,82.68,64.64,73.73,20.32,241.37,666.18,971.75,145.87,1.0,0.47,0.5983
+FARM-1158,Ethiopia,Amhara,Mixed Farming,Rainfed,Long Rains 2023,Tomato,5.29,28.69,151.77,178.81,27137.99,38.83,175.74,182.16,35.47,432.2,2286.34,24851.65,1086.96,15.0,13.69,2.4171
+FARM-1159,Uganda,Eastern,Intensive Commercial,Partial Irrigation,Long Rains 2023,Tomato,6.51,26.16,170.3,241.9,41195.57,57.21,139.58,222.36,38.65,457.8,2980.28,38215.29,1282.27,15.0,11.16,1.8925
+FARM-1160,Uganda,Gulu,Smallholder Subsistence,Rainfed,Short Rains 2019,Yam,6.72,16.74,112.49,100.22,11273.75,102.93,48.23,185.45,34.88,371.49,2496.41,8777.34,351.6,10.0,6.74,3.7067
+FARM-1161,Kenya,Coast,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Coffee,3.84,0.47,1.8,1331.94,2397.49,121.54,210.23,261.76,45.27,638.8,2452.99,-55.5,-2.26,0.8,-0.33,0.4796
+FARM-1162,Ethiopia,Afar,Mixed Farming,Rainfed,Long Rains 2022,Maize,6.09,3.11,18.94,186.34,3529.28,40.34,86.38,139.53,57.06,323.31,1968.96,1560.32,79.25,2.1,1.01,1.7351
+FARM-1163,Nigeria,Benue,Intensive Commercial,Rainfed,Long Rains 2021,Maize,6.27,3.73,23.39,316.97,7413.93,49.38,122.04,139.43,32.21,343.06,2150.99,5262.94,244.68,2.1,1.63,1.0823
+FARM-1164,Tanzania,Morogoro,Smallholder Commercial,Rainfed,Long Rains 2023,Cassava,1.39,21.9,30.44,73.58,2239.78,23.18,98.72,146.79,49.03,317.72,441.63,1798.15,407.16,12.0,9.9,4.318
+FARM-1165,Ethiopia,Tigray,Intensive Commercial,Rainfed,Long Rains 2022,Wheat,2.36,1.87,4.41,249.62,1100.82,67.81,169.75,67.9,51.43,356.89,842.26,258.56,30.7,2.0,-0.13,1.4297
+FARM-1166,Tanzania,Mbeya,Smallholder Commercial,Rainfed,Short Rains 2020,Maize,1.26,1.31,1.65,263.69,435.09,51.1,84.87,119.24,33.1,288.31,363.27,71.82,19.77,2.1,-0.79,1.0934
+FARM-1167,Kenya,Western,Smallholder Commercial,Partial Irrigation,Long Rains 2019,Groundnut,7.95,0.88,7.0,674.92,4724.44,78.81,58.87,116.35,51.83,305.86,2431.59,2292.85,94.29,1.0,-0.12,0.4532
+FARM-1168,Kenya,Nyanza,Smallholder Commercial,Irrigated,Long Rains 2023,Rice,2.75,2.14,5.88,469.7,2761.84,75.19,209.39,162.6,34.22,481.4,1323.85,1437.99,108.62,2.8,-0.66,1.0249
+FARM-1169,Tanzania,Mwanza,Mixed Farming,Irrigated,Long Rains 2022,Yam,3.56,11.12,39.61,98.39,3897.23,103.03,52.05,122.53,53.59,331.2,1179.07,2718.16,230.53,10.0,1.12,3.3662
+FARM-1170,Kenya,Eastern,Intensive Commercial,Irrigated,Long Rains 2023,Maize,4.68,2.05,9.59,214.0,2052.26,36.1,144.67,133.78,53.12,367.67,1720.7,331.56,19.27,2.1,-0.05,1.7181
+FARM-1171,Nigeria,Oyo,Mixed Farming,Irrigated,Long Rains 2019,Groundnut,5.55,1.65,9.16,662.09,6064.74,59.41,68.08,113.46,40.15,281.1,1560.11,4504.63,288.74,1.0,0.65,0.4246
+FARM-1172,Tanzania,Arusha,Smallholder Subsistence,Rainfed,Long Rains 2021,Yam,7.53,17.51,131.85,91.73,12094.6,139.97,63.95,124.26,42.2,370.38,2788.96,9305.64,333.66,10.0,7.51,4.0377
+FARM-1173,Kenya,Eastern,Mixed Farming,Rainfed,Long Rains 2023,Groundnut,3.35,1.24,4.15,507.78,2107.29,63.08,55.64,99.84,19.44,238.0,797.3,1309.99,164.3,1.0,0.24,0.4687
+FARM-1174,Tanzania,Dodoma,Mixed Farming,Irrigated,Short Rains 2021,Groundnut,0.84,2.05,1.72,622.38,1070.49,50.81,57.67,105.04,47.4,260.92,219.17,851.32,388.43,1.0,1.05,0.4192
+FARM-1175,Ethiopia,Amhara,Smallholder Commercial,Irrigated,Short Rains 2021,Groundnut,4.77,1.11,5.31,565.19,3001.16,97.17,46.88,115.8,36.99,296.84,1415.93,1585.23,111.96,1.0,0.11,0.5252
+FARM-1176,Tanzania,Morogoro,Smallholder Commercial,Rainfed,Short Rains 2021,Rice,5.9,3.21,18.94,463.38,8776.42,61.69,177.02,105.87,16.52,361.1,2130.49,6645.93,311.94,2.8,0.41,0.7793
+FARM-1177,Nigeria,Enugu,Intensive Commercial,Rainfed,Long Rains 2019,Maize,6.82,1.96,13.37,279.0,3730.23,30.27,130.57,89.86,42.8,293.5,2001.67,1728.56,86.36,2.1,-0.14,1.052
+FARM-1178,Uganda,Western,Smallholder Subsistence,Partial Irrigation,Long Rains 2019,Cowpea,4.64,0.41,1.9,482.35,916.47,33.24,59.1,50.86,51.59,194.79,903.83,12.64,1.4,0.7,-0.29,0.4038
+FARM-1179,Tanzania,Arusha,Smallholder Commercial,Rainfed,Short Rains 2019,Cassava,1.94,15.37,29.82,98.91,2949.5,26.68,63.81,109.84,33.27,233.6,453.18,2496.32,550.85,12.0,3.37,2.3617
+FARM-1180,Uganda,Northern,Smallholder Subsistence,Rainfed,Long Rains 2021,Groundnut,1.2,1.06,1.27,565.81,718.58,52.81,30.47,80.28,37.49,201.05,241.26,477.32,197.84,1.0,0.06,0.3553
+FARM-1181,Tanzania,Tanga,Smallholder Subsistence,Partial Irrigation,Short Rains 2023,Yam,7.39,7.99,59.05,170.13,10046.18,115.38,68.34,127.11,56.59,367.42,2715.23,7330.95,269.99,10.0,-2.01,2.1596
+FARM-1182,Ethiopia,Sidama,Smallholder Commercial,Rainfed,Long Rains 2019,Coffee,0.62,0.65,0.4,1344.19,537.68,162.07,251.34,335.77,28.47,777.65,482.14,55.54,11.52,0.8,-0.15,0.5785
+FARM-1183,Uganda,Northern,Mixed Farming,Irrigated,Long Rains 2022,Coffee,6.17,0.71,4.4,2188.48,9629.31,152.42,200.13,344.86,17.42,714.83,4410.5,5218.81,118.33,0.8,-0.09,0.3266
+FARM-1184,Tanzania,Arusha,Intensive Commercial,Rainfed,Short Rains 2021,Cassava,0.72,11.83,8.52,109.56,933.45,32.27,61.35,155.29,34.43,283.34,204.0,729.45,357.57,12.0,-0.17,2.5862
+FARM-1185,Uganda,Gulu,Mixed Farming,Rainfed,Short Rains 2019,Tomato,5.85,9.8,57.33,144.68,8294.5,58.47,143.39,216.16,29.25,447.27,2616.53,5677.97,217.0,15.0,-5.2,3.0914
+FARM-1186,Nigeria,Kano,Intensive Commercial,Rainfed,Long Rains 2021,Maize,6.21,1.54,9.56,192.22,1837.62,42.93,135.7,101.0,19.65,299.28,1858.53,-20.91,-1.13,2.1,-0.56,1.557
+FARM-1187,Nigeria,Niger,Mixed Farming,Irrigated,Short Rains 2019,Wheat,0.59,2.54,1.5,340.25,510.38,60.37,151.55,129.49,25.92,367.33,216.72,293.66,135.5,2.0,0.54,1.0796
+FARM-1188,Uganda,Northern,Smallholder Commercial,Rainfed,Long Rains 2020,Tomato,2.76,18.85,52.03,130.12,6770.14,47.39,122.11,182.95,18.46,370.91,1023.71,5746.43,561.33,15.0,3.85,2.8505
+FARM-1189,Ethiopia,Amhara,Smallholder Commercial,Irrigated,Short Rains 2023,Cowpea,1.3,0.8,1.04,587.21,610.7,34.97,44.81,90.2,29.83,199.81,259.75,350.95,135.11,0.7,0.1,0.3403
+FARM-1190,Ethiopia,Tigray,Mixed Farming,Rainfed,Long Rains 2020,Coffee,5.02,1.23,6.17,1679.01,10359.49,97.76,183.72,213.83,48.07,543.38,2727.77,7631.72,279.78,0.8,0.43,0.3236
+FARM-1191,Tanzania,Mbeya,Intensive Commercial,Rainfed,Short Rains 2021,Groundnut,6.62,1.07,7.08,434.17,3073.92,78.19,59.61,102.74,45.68,286.22,1894.78,1179.14,62.23,1.0,0.07,0.6592
+FARM-1192,Uganda,Central,Intensive Commercial,Rainfed,Short Rains 2020,Cowpea,6.73,0.46,3.1,561.95,1742.05,48.85,46.92,56.96,28.63,181.36,1220.55,521.5,42.73,0.7,-0.24,0.3227
+FARM-1193,Ethiopia,Afar,Intensive Commercial,Rainfed,Long Rains 2022,Rice,3.87,3.59,13.89,396.45,5506.69,61.37,210.82,186.96,33.82,492.97,1907.79,3598.9,188.64,2.8,0.79,1.2435
+FARM-1194,Nigeria,Niger,Smallholder Subsistence,Rainfed,Short Rains 2023,Wheat,6.27,2.64,16.55,263.9,4367.55,57.64,94.87,128.85,45.49,326.85,2049.35,2318.2,113.12,2.0,0.64,1.2385
+FARM-1195,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Short Rains 2019,Tomato,2.44,19.23,46.92,203.01,9525.23,53.22,137.52,177.95,32.6,401.29,979.15,8546.08,872.81,15.0,4.23,1.9767
+FARM-1196,Uganda,Gulu,Mixed Farming,Rainfed,Long Rains 2020,Wheat,4.12,1.74,7.17,365.7,2622.07,38.0,181.44,111.11,30.67,361.22,1488.23,1133.84,76.19,2.0,-0.26,0.9877
+FARM-1197,Ethiopia,Tigray,Intensive Commercial,Rainfed,Long Rains 2023,Groundnut,4.07,1.13,4.6,609.03,2801.54,65.95,45.01,118.61,20.18,249.75,1016.48,1785.06,175.61,1.0,0.13,0.4101
+FARM-1198,Ethiopia,Afar,Smallholder Commercial,Partial Irrigation,Long Rains 2020,Cassava,1.81,10.24,18.53,83.59,1548.92,43.96,53.91,112.4,23.3,233.57,422.76,1126.16,266.38,12.0,-1.76,2.7942
+FARM-1199,Tanzania,Morogoro,Smallholder Commercial,Irrigated,Short Rains 2023,Maize,4.94,3.1,15.31,278.66,4266.28,36.17,155.23,124.7,17.82,333.92,1649.56,2616.72,158.63,2.1,1.0,1.1983
+FARM-1200,Nigeria,Oyo,Mixed Farming,Rainfed,Short Rains 2021,Rice,3.93,2.42,9.51,452.53,4303.56,61.11,176.69,159.7,42.51,440.01,1729.24,2574.32,148.87,2.8,-0.38,0.9723
+FARM-1201,Uganda,Central,Intensive Commercial,Partial Irrigation,Short Rains 2021,Yam,1.79,13.76,24.63,160.06,3942.28,133.49,69.51,167.21,29.09,399.3,714.75,3227.53,451.56,10.0,3.76,2.4947
+FARM-1202,Kenya,Nyanza,Mixed Farming,Rainfed,Long Rains 2020,Cassava,4.33,13.86,60.01,58.27,3496.78,29.59,51.15,130.84,46.2,257.78,1116.19,2380.59,213.28,12.0,1.86,4.4239
+FARM-1203,Kenya,Western,Mixed Farming,Rainfed,Short Rains 2022,Rice,1.9,4.45,8.46,403.88,3416.82,74.62,214.22,148.46,23.78,461.08,876.05,2540.77,290.03,2.8,1.65,1.1416
+FARM-1204,Tanzania,Mbeya,Intensive Commercial,Irrigated,Short Rains 2022,Wheat,3.62,3.88,14.03,287.97,4040.22,37.89,93.39,113.27,28.14,272.69,987.14,3053.08,309.29,2.0,1.88,0.9469
+FARM-1205,Ethiopia,Amhara,Smallholder Commercial,Irrigated,Long Rains 2021,Wheat,4.74,3.66,17.36,289.16,5019.82,52.88,153.0,78.75,39.44,324.07,1536.09,3483.73,226.79,2.0,1.66,1.1207
+FARM-1206,Ethiopia,Sidama,Smallholder Commercial,Irrigated,Short Rains 2022,Maize,1.27,4.92,6.25,285.19,1782.44,38.93,179.93,95.98,30.69,345.53,438.82,1343.62,306.19,2.1,2.82,1.2116
+FARM-1207,Nigeria,Benue,Smallholder Commercial,Partial Irrigation,Short Rains 2020,Cassava,5.67,20.05,113.68,86.62,9846.96,30.7,76.97,142.79,51.61,302.07,1712.74,8134.22,474.92,12.0,8.05,3.4873
+FARM-1208,Nigeria,Oyo,Mixed Farming,Partial Irrigation,Long Rains 2023,Yam,4.54,9.21,41.81,150.41,6288.64,83.15,53.37,185.8,59.35,381.67,1732.78,4555.86,262.92,10.0,-0.79,2.5375
+FARM-1209,Nigeria,Kaduna,Mixed Farming,Rainfed,Long Rains 2019,Tomato,5.76,10.92,62.9,143.4,9019.86,42.88,104.76,229.66,32.67,409.97,2361.43,6658.43,281.97,15.0,-4.08,2.8589
+FARM-1210,Kenya,Western,Intensive Commercial,Irrigated,Long Rains 2022,Sorghum,1.07,2.69,2.88,249.95,719.86,30.07,102.49,91.68,54.48,278.72,298.23,421.63,141.38,1.4,1.29,1.1151
+FARM-1211,Tanzania,Morogoro,Smallholder Subsistence,Rainfed,Short Rains 2023,Yam,5.98,10.96,65.54,146.41,9595.71,88.66,43.17,153.44,24.8,310.07,1854.22,7741.49,417.51,10.0,0.96,2.1178
+FARM-1212,Tanzania,Arusha,Mixed Farming,Rainfed,Long Rains 2021,Cowpea,3.03,0.86,2.61,491.54,1282.92,39.56,33.75,84.13,17.18,174.62,529.1,753.82,142.47,0.7,0.16,0.3553
+FARM-1213,Nigeria,Enugu,Smallholder Subsistence,Rainfed,Long Rains 2019,Cowpea,3.81,0.4,1.52,589.51,896.06,31.07,47.54,56.6,44.25,179.46,683.74,212.32,31.05,0.7,-0.3,0.3044
+FARM-1214,Kenya,Nyanza,Mixed Farming,Rainfed,Short Rains 2021,Cassava,3.29,20.65,67.94,59.93,4071.64,29.91,58.33,135.96,25.54,249.74,821.64,3250.0,395.55,12.0,8.65,4.1672
+FARM-1215,Nigeria,Enugu,Smallholder Commercial,Irrigated,Long Rains 2019,Cassava,1.08,20.39,22.02,81.17,1787.36,31.13,40.48,107.49,20.43,199.53,215.49,1571.87,729.44,12.0,8.39,2.4582
+FARM-1216,Tanzania,Tanga,Smallholder Subsistence,Rainfed,Short Rains 2022,Rice,3.37,4.06,13.68,300.49,4110.7,52.53,205.72,113.71,49.81,421.77,1421.36,2689.34,189.21,2.8,1.26,1.4036
+FARM-1217,Kenya,Coast,Smallholder Subsistence,Partial Irrigation,Short Rains 2019,Rice,5.38,3.04,16.36,424.49,6944.66,65.12,118.16,141.17,45.9,370.35,1992.48,4952.18,248.54,2.8,0.24,0.8725
+FARM-1218,Kenya,Rift Valley,Smallholder Subsistence,Partial Irrigation,Long Rains 2020,Cassava,5.98,12.92,77.26,75.76,5853.22,39.78,54.87,131.57,26.17,252.39,1509.29,4343.93,287.81,12.0,0.92,3.3314
+FARM-1219,Uganda,Kampala,Smallholder Subsistence,Rainfed,Long Rains 2021,Coffee,2.04,1.13,2.31,1388.65,3207.78,119.18,223.39,306.76,50.72,700.05,1428.1,1779.68,124.62,0.8,0.33,0.5041
+FARM-1220,Kenya,Eastern,Smallholder Commercial,Irrigated,Short Rains 2019,Tomato,5.29,11.95,63.22,262.2,16576.28,30.48,116.11,161.14,32.41,340.14,1799.34,14776.94,821.24,15.0,-3.05,1.2973
+FARM-1221,Uganda,Western,Smallholder Commercial,Irrigated,Long Rains 2023,Yam,7.66,18.76,143.72,81.67,11737.61,65.4,53.11,103.98,17.72,240.21,1840.01,9897.6,537.91,10.0,8.76,2.9412
+FARM-1222,Tanzania,Mbeya,Intensive Commercial,Irrigated,Long Rains 2023,Sorghum,5.76,1.17,6.77,219.75,1487.71,35.4,69.42,68.59,38.01,211.42,1217.78,269.93,22.17,1.4,-0.23,0.9621
+FARM-1223,Kenya,Central,Intensive Commercial,Partial Irrigation,Short Rains 2021,Wheat,5.26,3.09,16.25,322.59,5242.09,37.31,166.85,111.1,53.09,368.35,1937.52,3304.57,170.56,2.0,1.09,1.1419
+FARM-1224,Nigeria,Kaduna,Smallholder Subsistence,Irrigated,Long Rains 2022,Cassava,5.09,10.96,55.8,89.96,5019.77,36.45,50.54,81.01,21.17,189.17,962.88,4056.89,421.33,12.0,-1.04,2.1028
+FARM-1225,Nigeria,Kaduna,Mixed Farming,Rainfed,Short Rains 2021,Cowpea,3.29,1.0,3.29,568.37,1869.94,46.99,24.72,94.99,30.08,196.78,647.41,1222.53,188.83,0.7,0.3,0.3462
+FARM-1226,Tanzania,Dodoma,Mixed Farming,Partial Irrigation,Short Rains 2019,Wheat,5.21,2.24,11.67,291.94,3406.94,36.94,184.53,71.68,22.08,315.23,1642.35,1764.59,107.44,2.0,0.24,1.0798
+FARM-1227,Nigeria,Oyo,Smallholder Subsistence,Rainfed,Short Rains 2020,Cassava,6.94,8.17,56.7,52.76,2991.49,29.1,95.21,94.32,58.22,276.85,1921.34,1070.15,55.7,12.0,-3.83,5.2473
+FARM-1228,Nigeria,Oyo,Mixed Farming,Rainfed,Short Rains 2020,Tomato,3.62,23.85,86.34,163.4,14107.96,33.12,117.28,185.27,55.59,391.26,1416.36,12691.6,896.07,15.0,8.85,2.3945
+FARM-1229,Kenya,Central,Intensive Commercial,Rainfed,Long Rains 2019,Wheat,7.08,3.17,22.44,339.23,7612.32,45.87,99.5,91.97,31.6,268.94,1904.1,5708.22,299.79,2.0,1.17,0.7928
+FARM-1230,Ethiopia,Sidama,Smallholder Commercial,Irrigated,Short Rains 2023,Sorghum,3.26,3.06,9.98,279.71,2791.51,39.4,101.27,82.79,50.82,274.28,894.15,1897.36,212.2,1.4,1.66,0.9806
+FARM-1231,Kenya,Rift Valley,Smallholder Commercial,Partial Irrigation,Long Rains 2019,Tomato,3.1,26.47,82.06,260.35,21364.32,68.04,80.15,205.45,53.21,406.85,1261.24,20103.08,1593.91,15.0,11.47,1.5627
+FARM-1232,Ethiopia,Oromia,Smallholder Commercial,Irrigated,Long Rains 2023,Groundnut,4.19,0.84,3.51,699.09,2453.81,85.58,34.65,125.28,55.38,300.89,1260.73,1193.08,94.63,1.0,-0.16,0.4304
+FARM-1233,Uganda,Western,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Yam,1.22,6.74,8.22,162.0,1331.64,65.99,68.39,143.5,58.39,336.27,410.25,921.39,224.59,10.0,-3.26,2.0757
+FARM-1234,Kenya,Nyanza,Intensive Commercial,Rainfed,Short Rains 2021,Sorghum,2.89,1.26,3.64,159.71,581.34,25.07,104.6,85.08,21.99,236.74,684.18,-102.84,-15.03,1.4,-0.14,1.4823
+FARM-1235,Kenya,Eastern,Intensive Commercial,Rainfed,Short Rains 2021,Cowpea,4.52,1.17,5.29,401.91,2126.1,34.25,30.6,56.0,22.09,142.94,646.09,1480.01,229.07,0.7,0.47,0.3557
+FARM-1236,Ethiopia,Afar,Smallholder Commercial,Rainfed,Long Rains 2019,Coffee,1.61,1.25,2.01,2168.4,4358.48,119.62,127.83,209.77,51.9,509.12,819.68,3538.8,431.73,0.8,0.45,0.2348
+FARM-1237,Kenya,Rift Valley,Smallholder Commercial,Rainfed,Short Rains 2022,Tomato,3.97,25.69,101.99,142.37,14520.32,30.48,163.04,247.73,20.88,462.13,1834.66,12685.66,691.44,15.0,10.69,3.246
+FARM-1238,Tanzania,Dodoma,Mixed Farming,Rainfed,Short Rains 2023,Cassava,0.66,8.9,5.87,104.15,611.36,31.09,47.73,152.41,52.32,283.55,187.14,424.22,226.69,12.0,-3.1,2.7225
+FARM-1239,Ethiopia,Oromia,Smallholder Subsistence,Rainfed,Short Rains 2022,Maize,7.43,2.63,19.54,281.42,5498.95,44.88,118.27,94.13,30.93,288.21,2141.4,3357.55,156.79,2.1,0.53,1.0241
+FARM-1240,Kenya,Nyanza,Smallholder Commercial,Rainfed,Short Rains 2022,Sorghum,5.11,1.85,9.45,234.15,2212.72,32.47,111.79,78.74,18.95,241.95,1236.36,976.36,78.97,1.4,0.45,1.0333
+FARM-1241,Tanzania,Arusha,Smallholder Commercial,Partial Irrigation,Short Rains 2020,Tomato,6.46,29.77,192.31,245.11,47137.1,44.36,134.45,183.01,56.07,417.89,2699.57,44437.53,1646.1,15.0,14.77,1.7049
+FARM-1242,Uganda,Eastern,Smallholder Commercial,Rainfed,Long Rains 2021,Tomato,2.89,12.82,37.05,263.32,9756.01,61.14,85.86,248.9,38.82,434.72,1256.34,8499.67,676.54,15.0,-2.18,1.6509
+FARM-1243,Uganda,Northern,Smallholder Commercial,Rainfed,Short Rains 2019,Rice,2.5,4.36,10.9,463.45,5051.61,42.24,219.57,121.94,53.09,436.84,1092.1,3959.51,362.56,2.8,1.56,0.9426
+FARM-1244,Tanzania,Dodoma,Smallholder Commercial,Partial Irrigation,Long Rains 2020,Rice,2.89,4.08,11.79,351.76,4147.25,63.66,184.41,135.17,40.54,423.78,1224.72,2922.53,238.63,2.8,1.28,1.2047
+FARM-1245,Kenya,Western,Mixed Farming,Rainfed,Short Rains 2022,Groundnut,4.18,0.71,2.97,469.79,1395.28,60.94,56.32,70.04,56.31,243.61,1018.29,376.99,37.02,1.0,-0.29,0.5186
+FARM-1246,Kenya,Central,Mixed Farming,Rainfed,Long Rains 2020,Yam,0.66,12.63,8.34,171.72,1432.14,121.95,82.32,186.07,58.23,448.57,296.06,1136.08,383.73,10.0,2.63,2.6122
+FARM-1247,Ethiopia,Afar,Smallholder Subsistence,Rainfed,Short Rains 2023,Tomato,2.76,11.0,30.36,145.2,4408.27,67.95,159.18,244.89,44.21,516.23,1424.79,2983.48,209.4,15.0,-4.0,3.5553
+FARM-1248,Kenya,Coast,Mixed Farming,Rainfed,Short Rains 2023,Wheat,5.49,3.04,16.69,268.11,4474.76,60.69,122.4,72.44,15.08,270.61,1485.65,2989.11,201.2,2.0,1.04,1.0093
+FARM-1249,Uganda,Western,Smallholder Commercial,Partial Irrigation,Long Rains 2019,Coffee,2.89,1.37,3.96,1811.38,7173.06,143.96,136.66,249.24,29.9,559.76,1617.71,5555.35,343.41,0.8,0.57,0.309
+FARM-1250,Nigeria,Kaduna,Smallholder Commercial,Rainfed,Short Rains 2021,Yam,6.66,13.71,91.31,152.93,13964.04,86.86,40.57,120.97,46.19,294.59,1961.97,12002.07,611.74,10.0,3.71,1.9263
+FARM-1251,Ethiopia,SNNPR,Smallholder Subsistence,Irrigated,Long Rains 2019,Cassava,3.79,17.35,65.76,59.98,3944.28,30.35,92.91,108.1,31.89,263.25,997.72,2946.56,295.33,12.0,5.35,4.389
+FARM-1252,Tanzania,Mbeya,Intensive Commercial,Rainfed,Long Rains 2020,Groundnut,6.49,0.64,4.15,406.02,1684.98,63.06,35.24,90.51,54.96,243.77,1582.07,102.91,6.5,1.0,-0.36,0.6004
+FARM-1253,Kenya,Coast,Smallholder Subsistence,Rainfed,Long Rains 2023,Cassava,4.96,16.59,82.29,78.96,6497.62,20.77,96.55,93.2,55.04,265.56,1317.18,5180.44,393.3,12.0,4.59,3.3632
+FARM-1254,Kenya,Rift Valley,Smallholder Commercial,Rainfed,Short Rains 2021,Cassava,3.57,15.76,56.26,105.53,5937.12,33.5,79.64,103.79,19.32,236.25,843.41,5093.71,603.94,12.0,3.76,2.2387
+FARM-1255,Tanzania,Mbeya,Smallholder Commercial,Rainfed,Short Rains 2022,Wheat,3.21,2.07,6.64,253.02,1680.05,58.17,156.02,73.98,16.16,304.33,976.9,703.15,71.98,2.0,0.07,1.2028
+FARM-1256,Kenya,Coast,Intensive Commercial,Rainfed,Short Rains 2019,Sorghum,2.81,1.48,4.16,213.58,888.49,36.53,56.38,82.65,23.32,198.88,558.85,329.64,58.99,1.4,0.08,0.9312
+FARM-1257,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Short Rains 2022,Rice,3.8,2.42,9.2,447.42,4116.26,62.57,118.14,169.65,19.35,369.71,1404.9,2711.36,192.99,2.8,-0.38,0.8263
+FARM-1258,Ethiopia,Sidama,Smallholder Commercial,Partial Irrigation,Short Rains 2023,Tomato,0.96,16.52,15.86,203.61,3229.25,68.63,148.71,241.73,40.77,499.84,479.85,2749.4,572.97,15.0,1.52,2.4549
+FARM-1259,Kenya,Eastern,Intensive Commercial,Rainfed,Short Rains 2019,Sorghum,4.27,2.33,9.95,254.06,2527.9,36.94,93.42,57.22,49.07,236.65,1010.5,1517.4,150.16,1.4,0.93,0.9315
+FARM-1260,Kenya,Central,Smallholder Commercial,Rainfed,Short Rains 2020,Groundnut,3.68,1.79,6.59,530.62,3496.79,99.86,61.36,120.05,26.6,307.87,1132.96,2363.83,208.64,1.0,0.79,0.5802
+FARM-1261,Nigeria,Kano,Intensive Commercial,Partial Irrigation,Long Rains 2023,Tomato,2.95,14.08,41.54,193.31,8030.1,64.94,158.66,201.0,38.52,463.12,1366.2,6663.9,487.77,15.0,-0.92,2.3957
+FARM-1262,Tanzania,Mwanza,Smallholder Commercial,Partial Irrigation,Long Rains 2020,Tomato,4.91,24.68,121.18,270.34,32759.8,67.0,136.27,133.13,27.87,364.27,1788.57,30971.23,1731.62,15.0,9.68,1.3475
+FARM-1263,Uganda,Eastern,Intensive Commercial,Irrigated,Long Rains 2021,Tomato,4.79,23.01,110.23,147.55,16264.44,46.12,141.82,208.51,33.08,429.53,2057.45,14206.99,690.51,15.0,8.01,2.9111
+FARM-1264,Tanzania,Dodoma,Intensive Commercial,Rainfed,Long Rains 2019,Groundnut,7.23,0.62,4.48,645.22,2890.59,65.15,44.02,99.5,46.33,255.0,1843.65,1046.94,56.79,1.0,-0.38,0.3952
+FARM-1265,Nigeria,Kaduna,Intensive Commercial,Rainfed,Long Rains 2021,Rice,2.52,2.96,7.46,409.11,3051.96,47.52,125.37,182.4,48.34,403.63,1017.15,2034.81,200.05,2.8,0.16,0.9866
+FARM-1266,Uganda,Eastern,Smallholder Commercial,Rainfed,Long Rains 2023,Maize,2.83,2.87,8.12,198.99,1615.8,55.54,167.93,62.32,23.67,309.46,875.77,740.03,84.5,2.1,0.77,1.5552
+FARM-1267,Kenya,Rift Valley,Intensive Commercial,Rainfed,Long Rains 2019,Groundnut,7.39,1.45,10.72,482.19,5169.08,91.18,55.26,108.12,20.57,275.13,2033.21,3135.87,154.23,1.0,0.45,0.5706
+FARM-1268,Nigeria,Kaduna,Intensive Commercial,Rainfed,Short Rains 2022,Yam,7.7,11.17,86.01,135.13,11622.53,87.54,81.88,125.87,52.39,347.68,2677.14,8945.39,334.14,10.0,1.17,2.5729
+FARM-1269,Nigeria,Niger,Smallholder Subsistence,Rainfed,Long Rains 2022,Maize,6.9,3.77,26.01,210.0,5462.1,36.64,102.51,76.54,44.32,260.01,1794.07,3668.03,204.45,2.1,1.67,1.2381
+FARM-1270,Uganda,Central,Smallholder Commercial,Rainfed,Short Rains 2022,Maize,5.01,1.23,6.16,215.33,1326.43,54.15,110.55,137.36,43.92,345.98,1733.36,-406.93,-23.48,2.1,-0.87,1.6067
+FARM-1271,Tanzania,Morogoro,Mixed Farming,Rainfed,Short Rains 2022,Yam,4.0,13.8,55.2,162.43,8966.14,91.77,45.12,151.15,44.81,332.85,1331.4,7634.74,573.44,10.0,3.8,2.0492
+FARM-1272,Ethiopia,Sidama,Mixed Farming,Rainfed,Short Rains 2023,Coffee,5.63,0.98,5.52,1536.28,8480.27,107.65,172.02,205.38,44.53,529.58,2981.54,5498.73,184.43,0.8,0.18,0.3447
+FARM-1273,Ethiopia,Amhara,Smallholder Commercial,Rainfed,Long Rains 2023,Rice,6.54,4.31,28.19,400.01,11276.28,66.42,181.69,172.13,44.49,464.73,3039.33,8236.95,271.01,2.8,1.51,1.1618
+FARM-1274,Ethiopia,SNNPR,Intensive Commercial,Rainfed,Long Rains 2022,Tomato,4.87,29.88,145.52,250.56,36461.49,43.73,151.34,209.22,43.72,448.01,2181.81,34279.68,1571.16,15.0,14.88,1.788
+FARM-1275,Tanzania,Tanga,Mixed Farming,Rainfed,Long Rains 2023,Yam,6.8,16.39,111.45,98.11,10934.36,67.81,46.4,125.87,51.38,291.46,1981.93,8952.43,451.7,10.0,6.39,2.9707
+FARM-1276,Kenya,Coast,Smallholder Commercial,Rainfed,Short Rains 2019,Yam,2.17,16.33,35.44,122.05,4325.45,130.95,58.58,158.56,35.87,383.96,833.19,3492.26,419.14,10.0,6.33,3.1459
+FARM-1277,Nigeria,Benue,Smallholder Subsistence,Irrigated,Short Rains 2023,Maize,7.17,3.56,25.54,301.45,7699.03,41.45,109.84,64.32,53.44,269.05,1929.09,5769.94,299.1,2.1,1.46,0.8925
+FARM-1278,Kenya,Central,Intensive Commercial,Rainfed,Long Rains 2022,Yam,2.87,14.3,41.04,157.89,6479.81,99.01,71.55,117.68,43.55,331.79,952.24,5527.57,580.48,10.0,4.3,2.1014
+FARM-1279,Nigeria,Benue,Smallholder Commercial,Partial Irrigation,Short Rains 2020,Sorghum,6.23,1.63,10.15,249.26,2529.99,22.2,93.01,88.01,33.15,236.37,1472.59,1057.4,71.81,1.4,0.23,0.9483
+FARM-1280,Tanzania,Morogoro,Smallholder Commercial,Rainfed,Long Rains 2019,Maize,7.63,4.14,31.59,285.96,9033.48,45.93,81.79,60.33,48.01,236.06,1801.14,7232.34,401.54,2.1,2.04,0.8255
+FARM-1281,Kenya,Coast,Smallholder Commercial,Rainfed,Long Rains 2021,Yam,3.38,12.65,42.76,96.7,4134.89,125.91,54.91,129.08,47.75,357.65,1208.86,2926.03,242.05,10.0,2.65,3.6986
+FARM-1282,Uganda,Kampala,Smallholder Commercial,Rainfed,Long Rains 2022,Yam,7.97,11.37,90.62,155.01,14047.01,73.19,85.34,181.2,15.86,355.59,2834.05,11212.96,395.65,10.0,1.37,2.294
+FARM-1283,Kenya,Coast,Smallholder Subsistence,Partial Irrigation,Short Rains 2020,Rice,4.28,1.93,8.26,422.22,3487.54,71.69,145.02,164.03,49.71,430.45,1842.33,1645.21,89.3,2.8,-0.87,1.0195
+FARM-1284,Uganda,Central,Smallholder Subsistence,Rainfed,Long Rains 2019,Coffee,0.86,0.54,0.46,1644.31,756.38,92.36,160.44,290.37,24.25,567.42,487.98,268.4,55.0,0.8,-0.26,0.3451
+FARM-1285,Nigeria,Niger,Mixed Farming,Partial Irrigation,Short Rains 2019,Tomato,5.04,11.02,55.54,252.9,14046.07,34.2,151.88,135.31,20.13,341.52,1721.26,12324.81,716.03,15.0,-3.98,1.3504
+FARM-1286,Nigeria,Benue,Smallholder Commercial,Rainfed,Short Rains 2023,Groundnut,6.74,1.77,11.93,507.38,6053.04,70.49,38.02,102.89,55.97,267.37,1802.07,4250.97,235.89,1.0,0.77,0.527
+FARM-1287,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Long Rains 2019,Groundnut,7.3,1.6,11.68,600.71,7016.29,57.46,34.5,100.7,47.56,240.22,1753.61,5262.68,300.11,1.0,0.6,0.3999
+FARM-1288,Nigeria,Niger,Mixed Farming,Rainfed,Short Rains 2022,Groundnut,3.98,0.72,2.87,452.41,1298.42,51.97,44.53,118.1,29.07,243.67,969.81,328.61,33.88,1.0,-0.28,0.5386
+FARM-1289,Nigeria,Kano,Smallholder Commercial,Rainfed,Long Rains 2019,Maize,2.96,4.15,12.28,313.71,3852.36,38.05,153.31,89.81,30.42,311.59,922.31,2930.05,317.69,2.1,2.05,0.9932
+FARM-1290,Nigeria,Benue,Mixed Farming,Irrigated,Short Rains 2022,Tomato,5.67,23.15,131.26,187.48,24608.62,65.44,96.68,137.23,47.69,347.04,1967.72,22640.9,1150.62,15.0,8.15,1.8511
+FARM-1291,Kenya,Rift Valley,Intensive Commercial,Partial Irrigation,Short Rains 2023,Tomato,5.59,11.99,67.02,180.76,12114.54,44.34,82.88,208.98,52.73,388.93,2174.12,9940.42,457.22,15.0,-3.01,2.1516
+FARM-1292,Kenya,Eastern,Intensive Commercial,Irrigated,Short Rains 2019,Cowpea,0.84,0.76,0.64,428.56,274.28,46.14,47.12,88.38,40.95,222.59,186.98,87.3,46.69,0.7,0.06,0.5194
+FARM-1293,Uganda,Northern,Smallholder Subsistence,Irrigated,Long Rains 2023,Yam,5.46,10.29,56.17,114.57,6435.4,114.1,59.24,183.9,40.13,397.37,2169.64,4265.76,196.61,10.0,0.29,3.4684
+FARM-1294,Uganda,Central,Intensive Commercial,Irrigated,Long Rains 2020,Maize,7.02,1.81,12.72,248.83,3165.12,37.23,177.01,64.03,25.02,303.29,2129.1,1036.02,48.66,2.1,-0.29,1.2189
+FARM-1295,Tanzania,Morogoro,Intensive Commercial,Irrigated,Short Rains 2019,Groundnut,6.51,1.42,9.28,656.98,6096.77,72.35,35.94,99.84,44.4,252.53,1643.97,4452.8,270.86,1.0,0.42,0.3844
+FARM-1296,Nigeria,Benue,Smallholder Subsistence,Rainfed,Long Rains 2019,Tomato,6.44,29.19,187.98,222.01,41733.44,65.6,136.23,205.1,35.53,442.46,2849.44,38884.0,1364.62,15.0,14.19,1.993
+FARM-1297,Ethiopia,SNNPR,Intensive Commercial,Rainfed,Short Rains 2020,Maize,4.7,3.25,15.28,246.24,3762.55,49.72,151.59,69.12,49.17,319.6,1502.12,2260.43,150.48,2.1,1.15,1.2979
+FARM-1298,Kenya,Rift Valley,Mixed Farming,Partial Irrigation,Short Rains 2021,Yam,4.41,14.13,62.31,84.58,5270.18,73.13,47.02,171.69,47.47,339.31,1496.36,3773.82,252.2,10.0,4.13,4.0117
+FARM-1299,Nigeria,Niger,Smallholder Commercial,Rainfed,Short Rains 2020,Coffee,7.48,0.87,6.51,1657.05,10787.4,158.14,234.69,171.55,33.65,598.03,4473.26,6314.14,141.15,0.8,0.07,0.3609
+FARM-1300,Uganda,Central,Smallholder Commercial,Irrigated,Short Rains 2022,Cowpea,0.53,1.24,0.66,488.31,322.28,37.98,43.4,96.22,50.15,227.75,120.71,201.57,166.99,0.7,0.54,0.4664
+FARM-1301,Kenya,Coast,Smallholder Commercial,Rainfed,Long Rains 2020,Coffee,3.41,1.12,3.82,2082.7,7955.91,130.41,181.55,345.9,56.22,714.08,2435.01,5520.9,226.73,0.8,0.32,0.3429
+FARM-1302,Kenya,Nyanza,Mixed Farming,Irrigated,Short Rains 2021,Tomato,6.54,13.8,90.25,216.4,19530.1,65.46,131.23,229.6,39.65,465.94,3047.25,16482.85,540.91,15.0,-1.2,2.1531
+FARM-1303,Ethiopia,Afar,Smallholder Commercial,Rainfed,Short Rains 2020,Wheat,5.18,1.73,8.96,262.15,2348.86,58.53,197.95,105.51,58.12,420.11,2176.17,172.69,7.94,2.0,-0.27,1.6026
+FARM-1304,Uganda,Kampala,Mixed Farming,Partial Irrigation,Short Rains 2019,Yam,4.1,12.42,50.92,146.72,7470.98,93.4,77.39,184.14,27.87,382.8,1569.48,5901.5,376.02,10.0,2.42,2.6091
+FARM-1305,Tanzania,Mwanza,Smallholder Subsistence,Irrigated,Short Rains 2019,Wheat,1.59,3.35,5.33,235.98,1257.77,61.26,107.7,80.06,26.28,275.3,437.73,820.04,187.34,2.0,1.35,1.1666
+FARM-1306,Nigeria,Enugu,Smallholder Subsistence,Rainfed,Short Rains 2020,Sorghum,6.61,0.97,6.41,262.84,1684.8,38.49,110.54,94.54,40.26,283.83,1876.12,-191.32,-10.2,1.4,-0.43,1.0799
+FARM-1307,Kenya,Western,Intensive Commercial,Irrigated,Long Rains 2019,Sorghum,3.62,2.68,9.68,239.07,2314.2,44.15,53.77,94.62,24.14,216.68,784.38,1529.82,195.04,1.4,1.28,0.9063
+FARM-1308,Tanzania,Arusha,Smallholder Commercial,Rainfed,Short Rains 2023,Yam,2.71,7.31,19.81,148.27,2937.23,74.96,48.69,151.38,31.97,307.0,831.97,2105.26,253.05,10.0,-2.69,2.0705
+FARM-1309,Tanzania,Dodoma,Smallholder Commercial,Rainfed,Long Rains 2021,Wheat,4.88,1.64,8.0,259.5,2076.0,59.84,107.03,70.76,29.52,267.15,1303.69,772.31,59.24,2.0,-0.36,1.0295
+FARM-1310,Nigeria,Enugu,Intensive Commercial,Partial Irrigation,Long Rains 2021,Coffee,4.63,0.49,2.27,1907.68,4330.43,132.54,273.12,254.12,50.38,710.16,3288.04,1042.39,31.7,0.8,-0.31,0.3723
+FARM-1311,Kenya,Eastern,Intensive Commercial,Rainfed,Long Rains 2023,Wheat,3.12,3.21,10.02,319.4,3200.39,46.59,122.29,126.52,42.82,338.22,1055.25,2145.14,203.28,2.0,1.21,1.0589
+FARM-1312,Tanzania,Mbeya,Mixed Farming,Irrigated,Short Rains 2019,Maize,2.3,4.15,9.54,308.61,2944.14,37.31,83.99,130.85,32.16,284.31,653.91,2290.23,350.24,2.1,2.05,0.9213
+FARM-1313,Nigeria,Benue,Mixed Farming,Rainfed,Long Rains 2023,Sorghum,7.34,2.2,16.15,198.74,3209.65,40.07,81.19,52.63,55.42,229.31,1683.14,1526.51,90.69,1.4,0.8,1.1538
+FARM-1314,Kenya,Nyanza,Smallholder Subsistence,Rainfed,Short Rains 2019,Wheat,7.79,2.93,22.82,295.98,6754.26,56.94,113.19,104.07,24.59,298.79,2327.57,4426.69,190.19,2.0,0.93,1.0095
+FARM-1315,Tanzania,Mwanza,Intensive Commercial,Rainfed,Long Rains 2023,Groundnut,6.1,0.78,4.76,537.77,2559.79,66.59,34.38,73.26,50.74,224.97,1372.32,1187.47,86.53,1.0,-0.22,0.4183
+FARM-1316,Uganda,Central,Mixed Farming,Irrigated,Short Rains 2020,Coffee,3.41,1.45,4.94,1633.03,8067.17,81.69,227.73,256.97,43.86,610.25,2080.95,5986.22,287.67,0.8,0.65,0.3737
+FARM-1317,Uganda,Central,Smallholder Subsistence,Rainfed,Long Rains 2019,Coffee,7.46,0.53,3.95,1986.89,7848.22,110.14,133.84,303.05,34.7,581.73,4339.71,3508.51,80.85,0.8,-0.27,0.2928
+FARM-1318,Tanzania,Tanga,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Maize,2.15,3.66,7.87,291.55,2294.5,55.48,109.5,110.72,28.41,304.11,653.84,1640.66,250.93,2.1,1.56,1.0431
+FARM-1319,Ethiopia,Oromia,Smallholder Commercial,Rainfed,Long Rains 2023,Wheat,0.81,2.43,1.97,270.93,533.73,54.16,99.36,74.7,48.36,276.58,224.03,309.7,138.24,2.0,0.43,1.0209
+FARM-1320,Ethiopia,Amhara,Smallholder Commercial,Rainfed,Long Rains 2023,Tomato,1.88,21.57,40.55,160.44,6505.84,34.58,147.1,193.75,17.45,392.88,738.61,5767.23,780.82,15.0,6.57,2.4488
+FARM-1321,Uganda,Western,Mixed Farming,Rainfed,Short Rains 2019,Wheat,2.38,1.49,3.55,304.51,1081.01,68.3,129.29,106.99,25.55,330.13,785.71,295.3,37.58,2.0,-0.51,1.0841
+FARM-1322,Ethiopia,Sidama,Mixed Farming,Irrigated,Short Rains 2020,Cassava,3.88,20.79,80.66,68.34,5512.3,34.6,73.93,109.16,29.23,246.92,958.05,4554.25,475.37,12.0,8.79,3.6131
+FARM-1323,Tanzania,Arusha,Smallholder Commercial,Rainfed,Short Rains 2021,Maize,5.84,3.31,19.33,218.74,4228.24,40.78,147.96,86.53,36.6,311.87,1821.32,2406.92,132.15,2.1,1.21,1.4258
+FARM-1324,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Short Rains 2022,Sorghum,5.34,0.94,5.02,186.48,936.13,40.66,112.39,61.79,48.01,262.85,1403.62,-467.49,-33.31,1.4,-0.46,1.4095
+FARM-1325,Nigeria,Enugu,Smallholder Subsistence,Partial Irrigation,Long Rains 2019,Cassava,4.84,18.77,90.85,62.77,5702.65,20.92,55.64,151.52,39.29,267.37,1294.07,4408.58,340.68,12.0,6.77,4.2595
+FARM-1326,Kenya,Nyanza,Mixed Farming,Rainfed,Short Rains 2020,Tomato,3.99,19.23,76.73,183.49,14079.19,50.09,146.27,230.24,51.29,477.89,1906.78,12172.41,638.38,15.0,4.23,2.6044
+FARM-1327,Uganda,Gulu,Smallholder Commercial,Irrigated,Long Rains 2023,Rice,1.69,4.35,7.35,393.16,2889.73,74.89,117.54,173.2,57.26,422.89,714.68,2175.05,304.34,2.8,1.55,1.0756
+FARM-1328,Nigeria,Kaduna,Smallholder Subsistence,Rainfed,Short Rains 2020,Cowpea,3.27,0.43,1.41,401.69,566.38,52.23,34.45,73.48,35.46,195.62,639.68,-73.3,-11.46,0.7,-0.27,0.487
+FARM-1329,Nigeria,Kano,Mixed Farming,Rainfed,Short Rains 2019,Yam,4.84,12.41,60.06,117.67,7067.26,90.28,69.38,189.82,18.5,367.98,1781.02,5286.24,296.81,10.0,2.41,3.1272
+FARM-1330,Ethiopia,Tigray,Intensive Commercial,Rainfed,Long Rains 2023,Groundnut,6.63,1.01,6.7,637.8,4273.26,94.36,30.33,122.92,34.8,282.41,1872.38,2400.88,128.23,1.0,0.01,0.4428
+FARM-1331,Kenya,Rift Valley,Smallholder Commercial,Rainfed,Long Rains 2021,Wheat,1.9,1.91,3.63,329.11,1194.67,39.14,115.34,116.78,47.41,318.67,605.47,589.2,97.31,2.0,-0.09,0.9683
+FARM-1332,Tanzania,Tanga,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Cowpea,1.71,1.07,1.83,355.61,650.77,26.29,42.94,58.06,43.33,170.62,291.76,359.01,123.05,0.7,0.37,0.4798
+FARM-1333,Nigeria,Oyo,Smallholder Commercial,Rainfed,Long Rains 2019,Rice,7.42,3.31,24.56,361.09,8868.37,78.77,176.51,187.85,47.76,490.89,3642.4,5225.97,143.48,2.8,0.51,1.3595
+FARM-1334,Ethiopia,Oromia,Intensive Commercial,Irrigated,Short Rains 2022,Groundnut,1.78,2.0,3.56,580.25,2065.69,89.73,71.02,80.91,44.68,286.34,509.69,1556.0,305.28,1.0,1.0,0.4935
+FARM-1335,Ethiopia,Amhara,Smallholder Subsistence,Rainfed,Short Rains 2022,Yam,3.34,6.72,22.44,81.66,1832.45,101.82,85.47,168.44,52.19,407.92,1362.45,470.0,34.5,10.0,-3.28,4.9953
+FARM-1336,Uganda,Central,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Rice,4.27,1.91,8.16,376.45,3071.83,45.21,172.42,182.75,55.36,455.74,1946.01,1125.82,57.85,2.8,-0.89,1.2106
+FARM-1337,Tanzania,Mbeya,Smallholder Subsistence,Partial Irrigation,Short Rains 2021,Tomato,3.72,28.65,106.58,197.14,21011.18,60.75,115.05,224.6,55.85,456.25,1697.25,19313.93,1137.95,15.0,13.65,2.3143
+FARM-1338,Uganda,Central,Mixed Farming,Irrigated,Long Rains 2020,Tomato,6.24,35.02,218.56,133.41,29158.09,53.93,134.37,153.51,15.25,357.06,2228.05,26930.04,1208.68,15.0,20.02,2.6764
+FARM-1339,Nigeria,Oyo,Smallholder Subsistence,Irrigated,Short Rains 2019,Wheat,5.41,3.4,18.39,256.86,4723.66,47.68,107.03,105.61,26.41,286.73,1551.21,3172.45,204.51,2.0,1.4,1.1163
+FARM-1340,Uganda,Western,Mixed Farming,Irrigated,Short Rains 2021,Coffee,6.16,1.12,6.93,1983.79,13747.66,128.25,179.23,260.98,26.42,594.88,3664.46,10083.2,275.16,0.8,0.32,0.2999
+FARM-1341,Ethiopia,Sidama,Smallholder Commercial,Rainfed,Long Rains 2022,Yam,6.11,10.81,66.05,149.93,9902.88,72.94,50.72,140.06,30.23,293.95,1796.03,8106.85,451.38,10.0,0.81,1.9606
+FARM-1342,Uganda,Kampala,Intensive Commercial,Rainfed,Long Rains 2020,Maize,6.53,3.92,25.6,246.03,6298.37,48.01,88.81,81.05,31.69,249.56,1629.63,4668.74,286.49,2.1,1.82,1.0143
+FARM-1343,Uganda,Central,Mixed Farming,Partial Irrigation,Long Rains 2022,Tomato,0.93,25.02,23.27,148.04,3444.89,49.77,81.07,230.57,56.88,418.29,389.01,3055.88,785.55,15.0,10.02,2.8255
+FARM-1344,Uganda,Eastern,Smallholder Commercial,Partial Irrigation,Long Rains 2019,Groundnut,1.77,0.64,1.13,471.78,533.11,50.01,37.87,129.81,50.09,267.78,473.97,59.14,12.48,1.0,-0.36,0.5676
+FARM-1345,Ethiopia,Afar,Smallholder Commercial,Partial Irrigation,Long Rains 2022,Tomato,0.62,23.48,14.56,267.07,3888.54,51.98,152.61,192.68,41.23,438.5,271.87,3616.67,1330.29,15.0,8.48,1.6419
+FARM-1346,Ethiopia,SNNPR,Smallholder Commercial,Irrigated,Short Rains 2023,Groundnut,7.47,1.61,12.05,478.33,5763.88,70.36,35.32,74.34,28.24,208.26,1555.7,4208.18,270.5,1.0,0.61,0.4354
+FARM-1347,Nigeria,Oyo,Mixed Farming,Irrigated,Long Rains 2023,Sorghum,7.75,2.2,17.05,250.1,4264.2,38.94,117.29,77.53,35.73,269.49,2088.55,2175.65,104.17,1.4,0.8,1.0775
+FARM-1348,Uganda,Central,Mixed Farming,Rainfed,Short Rains 2019,Cowpea,3.37,1.03,3.47,405.1,1405.7,46.04,52.01,70.62,30.89,199.56,672.52,733.18,109.02,0.7,0.33,0.4926
+FARM-1349,Uganda,Central,Mixed Farming,Rainfed,Short Rains 2020,Sorghum,3.49,2.07,7.22,194.46,1404.0,33.86,62.49,68.83,24.84,190.02,663.17,740.83,111.71,1.4,0.67,0.9772
+FARM-1350,Uganda,Eastern,Intensive Commercial,Rainfed,Short Rains 2020,Rice,2.26,2.35,5.31,333.08,1768.65,49.17,200.19,183.63,31.02,464.01,1048.66,719.99,68.66,2.8,-0.45,1.3931
+FARM-1351,Nigeria,Kano,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Cassava,7.68,19.87,152.6,72.27,11028.4,27.89,93.89,150.48,40.85,313.11,2404.68,8623.72,358.62,12.0,7.87,4.3325
+FARM-1352,Ethiopia,Tigray,Mixed Farming,Irrigated,Long Rains 2023,Rice,2.17,4.4,9.55,290.83,2777.43,71.97,157.4,154.08,37.61,421.06,913.7,1863.73,203.98,2.8,1.6,1.4478
+FARM-1353,Tanzania,Tanga,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Rice,3.95,3.91,15.44,282.36,4359.64,48.43,169.72,132.54,42.58,393.27,1553.42,2806.22,180.65,2.8,1.11,1.3928
+FARM-1354,Ethiopia,Amhara,Smallholder Commercial,Rainfed,Long Rains 2021,Wheat,4.04,2.53,10.22,265.87,2717.19,52.46,113.16,109.05,31.75,306.42,1237.94,1479.25,119.49,2.0,0.53,1.1525
+FARM-1355,Tanzania,Dodoma,Smallholder Commercial,Partial Irrigation,Long Rains 2020,Cowpea,5.65,1.05,5.93,530.2,3144.09,49.12,42.21,92.82,23.82,207.97,1175.03,1969.06,167.58,0.7,0.35,0.3922
+FARM-1356,Kenya,Eastern,Intensive Commercial,Irrigated,Long Rains 2020,Maize,1.51,5.19,7.83,268.29,2100.71,46.02,111.57,98.93,26.29,282.81,427.04,1673.67,391.92,2.1,3.09,1.0541
+FARM-1357,Uganda,Central,Smallholder Commercial,Rainfed,Short Rains 2019,Tomato,2.12,13.59,28.81,254.24,7324.65,33.85,154.46,153.77,31.21,373.29,791.37,6533.28,825.57,15.0,-1.41,1.4683
+FARM-1358,Uganda,Eastern,Intensive Commercial,Rainfed,Long Rains 2019,Yam,3.13,13.83,43.29,140.56,6084.84,106.15,72.49,153.84,59.07,391.55,1225.55,4859.29,396.5,10.0,3.83,2.7856
+FARM-1359,Ethiopia,SNNPR,Intensive Commercial,Irrigated,Long Rains 2023,Yam,7.17,12.44,89.18,108.65,9689.41,110.54,47.24,116.76,51.35,325.89,2336.63,7352.78,314.67,10.0,2.44,2.9994
+FARM-1360,Ethiopia,Tigray,Intensive Commercial,Rainfed,Short Rains 2023,Coffee,1.09,0.81,0.88,1513.48,1331.86,145.3,233.67,271.08,32.8,682.85,744.31,587.55,78.94,0.8,0.01,0.4512
+FARM-1361,Tanzania,Dodoma,Intensive Commercial,Irrigated,Long Rains 2023,Coffee,1.75,1.79,3.13,1325.04,4147.38,103.46,160.26,298.78,48.74,611.24,1069.67,3077.71,287.73,0.8,0.99,0.4613
+FARM-1362,Kenya,Central,Smallholder Subsistence,Rainfed,Short Rains 2019,Tomato,7.53,18.41,138.63,128.61,17829.2,60.84,132.4,249.48,19.68,462.4,3481.87,14347.33,412.06,15.0,3.41,3.5954
+FARM-1363,Uganda,Northern,Mixed Farming,Rainfed,Long Rains 2022,Cassava,2.36,11.98,28.27,87.59,2476.17,23.28,90.31,82.29,44.86,240.74,568.15,1908.02,335.83,12.0,-0.02,2.7485
+FARM-1364,Ethiopia,Tigray,Mixed Farming,Partial Irrigation,Long Rains 2023,Cowpea,3.84,1.18,4.53,524.41,2375.58,30.31,43.9,81.55,43.61,199.37,765.58,1610.0,210.3,0.7,0.48,0.3802
+FARM-1365,Uganda,Western,Mixed Farming,Rainfed,Long Rains 2023,Wheat,4.11,1.57,6.45,216.12,1393.97,45.78,135.34,70.9,15.48,267.5,1099.43,294.54,26.79,2.0,-0.43,1.2377
+FARM-1366,Uganda,Northern,Intensive Commercial,Partial Irrigation,Long Rains 2021,Yam,0.56,16.99,9.51,174.7,1661.4,98.17,40.46,143.04,28.18,309.85,173.52,1487.88,857.47,10.0,6.99,1.7736
+FARM-1367,Kenya,Rift Valley,Smallholder Commercial,Irrigated,Short Rains 2021,Wheat,7.12,2.61,18.6,244.98,4556.63,60.02,161.06,117.99,24.93,364.0,2591.68,1964.95,75.82,2.0,0.61,1.4858
+FARM-1368,Nigeria,Benue,Mixed Farming,Rainfed,Long Rains 2023,Groundnut,5.36,1.24,6.65,480.65,3196.32,59.4,33.42,78.2,19.97,190.99,1023.71,2172.61,212.23,1.0,0.24,0.3974
+FARM-1369,Tanzania,Mbeya,Intensive Commercial,Rainfed,Long Rains 2021,Cowpea,2.9,0.52,1.51,592.43,894.57,25.66,58.89,64.11,20.63,169.29,490.94,403.63,82.22,0.7,-0.18,0.2858
+FARM-1370,Tanzania,Tanga,Smallholder Subsistence,Rainfed,Short Rains 2020,Maize,0.61,1.92,1.17,238.83,279.43,53.57,129.84,89.71,46.36,319.48,194.88,84.55,43.39,2.1,-0.18,1.3377
+FARM-1371,Nigeria,Niger,Smallholder Subsistence,Rainfed,Long Rains 2020,Cassava,6.32,9.0,56.88,78.21,4448.58,24.8,90.49,145.38,52.27,312.94,1977.78,2470.8,124.93,12.0,-3.0,4.0013
+FARM-1372,Nigeria,Enugu,Intensive Commercial,Rainfed,Long Rains 2022,Groundnut,6.03,0.64,3.86,538.25,2077.64,88.55,56.06,128.93,36.28,309.82,1868.21,209.43,11.21,1.0,-0.36,0.5756
+FARM-1373,Ethiopia,SNNPR,Smallholder Subsistence,Rainfed,Long Rains 2019,Rice,4.11,2.55,10.48,352.09,3689.9,42.08,180.0,197.33,25.62,445.03,1829.07,1860.83,101.74,2.8,-0.25,1.264
+FARM-1374,Tanzania,Dodoma,Mixed Farming,Partial Irrigation,Long Rains 2020,Maize,1.4,3.8,5.32,181.25,964.25,31.26,158.35,98.02,41.83,329.46,461.24,503.01,109.06,2.1,1.7,1.8177
+FARM-1375,Ethiopia,Oromia,Intensive Commercial,Rainfed,Long Rains 2020,Groundnut,5.64,1.01,5.7,690.9,3938.13,87.98,33.0,91.33,21.93,234.24,1321.11,2617.02,198.09,1.0,0.01,0.339
+FARM-1376,Uganda,Central,Smallholder Commercial,Rainfed,Short Rains 2022,Rice,7.86,4.26,33.48,431.34,14441.26,72.22,152.65,119.3,46.02,390.19,3066.89,11374.37,370.88,2.8,1.46,0.9046
+FARM-1377,Ethiopia,Afar,Smallholder Subsistence,Irrigated,Long Rains 2021,Rice,5.8,4.33,25.09,388.55,9748.72,59.6,168.0,154.36,29.57,411.53,2386.87,7361.85,308.43,2.8,1.53,1.0591
+FARM-1378,Tanzania,Dodoma,Smallholder Commercial,Rainfed,Long Rains 2023,Coffee,4.48,0.94,4.21,2019.42,8501.76,134.16,192.65,305.18,37.77,669.76,3000.52,5501.24,183.34,0.8,0.14,0.3317
+FARM-1379,Kenya,Rift Valley,Smallholder Commercial,Rainfed,Short Rains 2021,Coffee,5.91,1.19,7.03,1738.96,12224.89,118.75,203.85,249.51,39.82,611.93,3616.51,8608.38,238.03,0.8,0.39,0.3519
+FARM-1380,Uganda,Eastern,Mixed Farming,Rainfed,Long Rains 2022,Yam,1.22,13.57,16.56,84.38,1397.33,135.02,48.93,103.13,19.82,306.9,374.42,1022.91,273.2,10.0,3.57,3.6371
+FARM-1381,Kenya,Rift Valley,Intensive Commercial,Irrigated,Short Rains 2023,Maize,4.44,4.39,19.48,215.83,4204.37,40.99,140.6,65.67,56.86,304.12,1350.29,2854.08,211.37,2.1,2.29,1.4091
+FARM-1382,Kenya,Coast,Intensive Commercial,Rainfed,Short Rains 2019,Cowpea,3.21,0.99,3.18,572.61,1820.9,49.66,51.77,52.92,42.76,197.11,632.72,1188.18,187.79,0.7,0.29,0.3442
+FARM-1383,Uganda,Central,Smallholder Subsistence,Rainfed,Long Rains 2021,Cassava,7.7,9.36,72.07,93.51,6739.27,33.29,51.37,122.1,26.19,232.95,1793.71,4945.56,275.72,12.0,-2.64,2.4912
+FARM-1384,Kenya,Western,Smallholder Subsistence,Partial Irrigation,Long Rains 2022,Wheat,3.18,2.15,6.84,319.74,2187.02,65.9,108.35,72.63,33.07,279.95,890.24,1296.78,145.67,2.0,0.15,0.8756
+FARM-1385,Ethiopia,Afar,Intensive Commercial,Rainfed,Long Rains 2023,Rice,7.27,3.43,24.94,479.37,11955.49,73.79,149.48,163.32,52.18,438.77,3189.86,8765.63,274.8,2.8,0.63,0.9153
+FARM-1386,Ethiopia,Sidama,Smallholder Commercial,Irrigated,Short Rains 2023,Groundnut,6.24,2.14,13.34,476.23,6352.91,98.08,52.37,93.83,47.68,291.96,1821.83,4531.08,248.71,1.0,1.14,0.6131
+FARM-1387,Ethiopia,Sidama,Smallholder Commercial,Rainfed,Long Rains 2023,Maize,0.55,4.45,2.45,210.08,514.7,39.45,157.15,135.47,52.01,384.08,211.24,303.46,143.66,2.1,2.35,1.8283
+FARM-1388,Uganda,Kampala,Smallholder Commercial,Rainfed,Short Rains 2023,Wheat,0.78,1.89,1.47,224.91,330.62,47.85,154.04,76.31,51.5,329.7,257.17,73.45,28.56,2.0,-0.11,1.4659
+FARM-1389,Nigeria,Oyo,Smallholder Commercial,Rainfed,Short Rains 2023,Tomato,5.93,25.44,150.86,147.66,22275.99,63.03,148.96,194.91,55.84,462.74,2744.05,19531.94,711.79,15.0,10.44,3.1338
+FARM-1390,Uganda,Gulu,Intensive Commercial,Rainfed,Long Rains 2019,Sorghum,6.35,2.37,15.05,193.47,2911.72,41.99,80.4,105.81,20.42,248.62,1578.74,1332.98,84.43,1.4,0.97,1.2851
+FARM-1391,Kenya,Coast,Intensive Commercial,Rainfed,Long Rains 2019,Coffee,2.79,0.45,1.26,1739.93,2192.31,94.96,200.38,194.16,17.27,506.77,1413.89,778.42,55.06,0.8,-0.35,0.2913
+FARM-1392,Tanzania,Morogoro,Smallholder Subsistence,Rainfed,Short Rains 2023,Coffee,3.74,1.34,5.01,1348.01,6753.53,113.62,196.14,299.06,39.67,648.49,2425.35,4328.18,178.46,0.8,0.54,0.4811
+FARM-1393,Ethiopia,Oromia,Intensive Commercial,Rainfed,Long Rains 2023,Tomato,6.22,18.58,115.57,151.7,17531.97,45.81,137.13,192.95,59.87,435.76,2710.43,14821.54,546.83,15.0,3.58,2.8725
+FARM-1394,Uganda,Northern,Mixed Farming,Irrigated,Short Rains 2019,Groundnut,2.93,2.14,6.26,426.88,2672.27,83.59,51.18,90.9,29.43,255.1,747.44,1924.83,257.52,1.0,1.14,0.5976
+FARM-1395,Uganda,Gulu,Smallholder Commercial,Rainfed,Long Rains 2021,Maize,5.12,4.47,22.89,241.91,5537.32,34.37,84.49,125.45,23.99,268.3,1373.7,4163.62,303.1,2.1,2.37,1.1091
+FARM-1396,Ethiopia,Amhara,Smallholder Subsistence,Rainfed,Short Rains 2019,Cassava,7.62,20.97,159.79,102.13,16319.35,40.5,40.82,135.5,20.01,236.83,1804.64,14514.71,804.3,12.0,8.97,2.3189
+FARM-1397,Tanzania,Morogoro,Smallholder Commercial,Partial Irrigation,Short Rains 2021,Maize,2.09,3.0,6.27,285.05,1787.26,46.46,142.3,139.38,46.28,374.42,782.54,1004.72,128.39,2.1,0.9,1.3135
+FARM-1398,Nigeria,Benue,Smallholder Subsistence,Rainfed,Long Rains 2023,Coffee,1.78,0.74,1.32,1989.19,2625.73,141.8,128.49,280.95,15.38,566.62,1008.58,1617.15,160.34,0.8,-0.06,0.2848
+FARM-1399,Tanzania,Tanga,Smallholder Subsistence,Rainfed,Short Rains 2021,Sorghum,2.69,2.3,6.19,200.25,1239.55,44.49,85.6,92.58,55.67,278.34,748.73,490.82,65.55,1.4,0.9,1.39
+FARM-1400,Tanzania,Mbeya,Smallholder Commercial,Rainfed,Short Rains 2019,Wheat,4.25,2.14,9.1,366.74,3337.33,35.75,117.21,97.06,30.01,280.03,1190.13,2147.2,180.42,2.0,0.14,0.7636
+FARM-1401,Tanzania,Tanga,Mixed Farming,Rainfed,Long Rains 2019,Rice,3.17,2.56,8.12,479.2,3891.1,79.14,133.11,106.2,26.6,345.05,1093.81,2797.29,255.74,2.8,-0.24,0.7201
+FARM-1402,Tanzania,Mwanza,Smallholder Commercial,Rainfed,Long Rains 2021,Wheat,3.06,1.98,6.06,224.71,1361.74,60.55,147.28,107.46,54.27,369.56,1130.85,230.89,20.42,2.0,-0.02,1.6446
+FARM-1403,Kenya,Eastern,Smallholder Commercial,Irrigated,Short Rains 2023,Groundnut,7.78,2.11,16.44,498.79,8200.11,77.11,40.34,78.31,39.36,235.12,1829.23,6370.88,348.28,1.0,1.11,0.4714
+FARM-1404,Kenya,Central,Smallholder Commercial,Irrigated,Long Rains 2023,Sorghum,7.97,3.08,24.51,168.87,4139.0,43.33,114.2,69.05,40.08,266.66,2125.28,2013.72,94.75,1.4,1.68,1.5791
+FARM-1405,Nigeria,Kaduna,Smallholder Subsistence,Rainfed,Long Rains 2020,Yam,7.1,10.38,73.7,121.13,8927.28,95.44,86.69,189.41,57.0,428.54,3042.63,5884.65,193.41,10.0,0.38,3.5379
+FARM-1406,Ethiopia,Amhara,Smallholder Commercial,Rainfed,Short Rains 2019,Groundnut,0.7,1.78,1.25,585.08,731.35,80.28,60.62,105.78,25.39,272.07,190.45,540.9,284.01,1.0,0.78,0.465
+FARM-1407,Nigeria,Niger,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Cassava,6.85,14.56,99.74,88.97,8873.87,24.6,63.25,117.91,22.37,228.13,1562.69,7311.18,467.86,12.0,2.56,2.5641
+FARM-1408,Kenya,Rift Valley,Mixed Farming,Irrigated,Long Rains 2019,Tomato,2.17,28.46,61.76,152.45,9415.31,38.18,97.71,244.11,34.77,414.77,900.05,8515.26,946.09,15.0,13.46,2.7207
+FARM-1409,Uganda,Western,Smallholder Commercial,Irrigated,Short Rains 2022,Yam,3.54,6.92,24.51,153.53,3763.02,90.43,55.64,161.15,48.41,355.63,1258.93,2504.09,198.91,10.0,-3.08,2.3164
+FARM-1410,Uganda,Kampala,Smallholder Subsistence,Irrigated,Long Rains 2019,Wheat,3.93,3.99,15.67,358.0,5609.86,43.6,149.17,128.87,16.77,338.41,1329.95,4279.91,321.81,2.0,1.99,0.9453
+FARM-1411,Tanzania,Mbeya,Mixed Farming,Irrigated,Short Rains 2020,Maize,3.49,2.76,9.64,295.87,2852.19,43.84,122.25,109.05,17.45,292.59,1021.14,1831.05,179.31,2.1,0.66,0.9889
+FARM-1412,Uganda,Northern,Smallholder Subsistence,Partial Irrigation,Short Rains 2022,Cowpea,1.35,1.02,1.38,584.46,806.55,45.88,25.41,70.68,35.29,177.26,239.3,567.25,237.05,0.7,0.32,0.3033
+FARM-1413,Kenya,Eastern,Intensive Commercial,Rainfed,Short Rains 2020,Coffee,2.38,1.23,2.93,2107.16,6173.98,159.65,234.94,174.71,20.14,589.44,1402.87,4771.11,340.1,0.8,0.43,0.2797
+FARM-1414,Tanzania,Tanga,Intensive Commercial,Partial Irrigation,Short Rains 2019,Yam,5.09,7.08,36.04,135.03,4866.48,63.51,48.54,133.52,54.21,299.78,1525.88,3340.6,218.93,10.0,-2.92,2.2201
+FARM-1415,Kenya,Central,Smallholder Subsistence,Irrigated,Long Rains 2020,Rice,2.81,5.07,14.26,472.19,6733.43,51.55,121.68,189.85,58.22,421.3,1183.85,5549.58,468.77,2.8,2.27,0.8922
+FARM-1416,Nigeria,Oyo,Intensive Commercial,Irrigated,Long Rains 2019,Sorghum,6.92,2.15,14.88,150.75,2243.16,42.07,66.65,85.33,36.41,230.46,1594.78,648.38,40.66,1.4,0.75,1.5288
+FARM-1417,Tanzania,Morogoro,Smallholder Subsistence,Rainfed,Short Rains 2023,Cassava,7.12,11.89,84.66,87.72,7426.38,40.5,52.46,94.79,17.48,205.23,1461.24,5965.14,408.22,12.0,-0.11,2.3396
+FARM-1418,Ethiopia,Oromia,Mixed Farming,Rainfed,Long Rains 2019,Rice,7.4,1.67,12.36,363.39,4491.5,47.13,180.65,161.11,46.12,435.01,3219.07,1272.43,39.53,2.8,-1.13,1.1971
+FARM-1419,Uganda,Kampala,Intensive Commercial,Partial Irrigation,Long Rains 2020,Wheat,3.2,1.09,3.49,338.33,1180.77,46.3,188.73,117.42,49.13,401.58,1285.06,-104.29,-8.12,2.0,-0.91,1.1869
+FARM-1420,Uganda,Central,Smallholder Commercial,Rainfed,Short Rains 2022,Sorghum,5.71,1.27,7.25,218.52,1584.27,33.12,98.71,86.72,19.92,238.47,1361.66,222.61,16.35,1.4,-0.13,1.0913
+FARM-1421,Uganda,Central,Mixed Farming,Irrigated,Short Rains 2023,Cowpea,5.07,0.81,4.12,481.35,1983.16,54.85,34.15,56.49,40.32,185.81,942.06,1041.1,110.51,0.7,0.11,0.386
+FARM-1422,Uganda,Gulu,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Cowpea,2.25,0.63,1.42,398.39,565.71,28.55,38.6,89.84,48.19,205.18,461.66,104.05,22.54,0.7,-0.07,0.515
+FARM-1423,Kenya,Western,Smallholder Subsistence,Rainfed,Long Rains 2022,Tomato,3.12,25.73,80.28,153.97,12360.71,55.62,149.0,153.07,18.05,375.74,1172.31,11188.4,954.39,15.0,10.73,2.4403
+FARM-1424,Ethiopia,Sidama,Smallholder Subsistence,Rainfed,Short Rains 2021,Wheat,5.64,1.85,10.43,330.39,3445.97,56.56,93.2,72.29,29.87,251.92,1420.83,2025.14,142.53,2.0,-0.15,0.7625
+FARM-1425,Ethiopia,Afar,Smallholder Subsistence,Rainfed,Short Rains 2022,Cowpea,4.11,0.9,3.7,573.01,2120.14,41.11,33.4,89.2,33.63,197.34,811.07,1309.07,161.4,0.7,0.2,0.3444
+FARM-1426,Nigeria,Oyo,Mixed Farming,Partial Irrigation,Short Rains 2023,Sorghum,4.52,1.15,5.2,239.11,1243.37,39.99,112.16,71.22,58.63,282.0,1274.64,-31.27,-2.45,1.4,-0.25,1.1794
+FARM-1427,Ethiopia,Oromia,Smallholder Commercial,Partial Irrigation,Long Rains 2022,Yam,5.04,7.44,37.5,91.68,3438.0,122.59,55.41,185.78,46.94,410.72,2070.03,1367.97,66.08,10.0,-2.56,4.4799
+FARM-1428,Ethiopia,Tigray,Smallholder Commercial,Rainfed,Short Rains 2022,Cassava,3.89,21.31,82.9,62.97,5220.21,27.56,46.73,142.8,50.0,267.09,1038.98,4181.23,402.44,12.0,9.31,4.2415
+FARM-1429,Nigeria,Benue,Intensive Commercial,Partial Irrigation,Long Rains 2019,Wheat,1.66,1.85,3.07,287.02,881.15,65.59,124.14,82.91,49.63,322.27,534.97,346.18,64.71,2.0,-0.15,1.1228
+FARM-1430,Nigeria,Oyo,Smallholder Subsistence,Irrigated,Short Rains 2020,Rice,3.41,5.66,19.31,303.17,5854.21,52.44,105.28,184.81,54.23,396.76,1352.95,4501.26,332.7,2.8,2.86,1.3087
+FARM-1431,Ethiopia,Tigray,Mixed Farming,Rainfed,Short Rains 2019,Maize,4.83,2.23,10.77,304.9,3283.77,39.63,99.25,82.13,29.36,250.37,1209.29,2074.48,171.55,2.1,0.13,0.8212
+FARM-1432,Tanzania,Tanga,Smallholder Commercial,Rainfed,Long Rains 2021,Cassava,2.55,8.21,20.94,87.38,1829.74,32.85,52.39,108.03,29.33,222.6,567.63,1262.11,222.35,12.0,-3.79,2.5475
+FARM-1433,Kenya,Coast,Smallholder Commercial,Rainfed,Short Rains 2023,Sorghum,1.03,1.84,1.9,194.04,368.68,31.09,59.11,78.24,45.4,213.84,220.26,148.42,67.38,1.4,0.44,1.102
+FARM-1434,Nigeria,Benue,Intensive Commercial,Irrigated,Short Rains 2019,Maize,1.84,3.96,7.29,262.99,1917.2,55.09,149.94,109.31,29.06,343.4,631.86,1285.34,203.42,2.1,1.86,1.3058
+FARM-1435,Kenya,Coast,Intensive Commercial,Partial Irrigation,Short Rains 2019,Wheat,1.49,3.03,4.51,365.54,1648.59,51.39,140.11,107.91,46.96,346.37,516.09,1132.5,219.44,2.0,1.03,0.9476
+FARM-1436,Tanzania,Morogoro,Smallholder Commercial,Partial Irrigation,Short Rains 2020,Groundnut,2.44,1.04,2.54,455.01,1155.73,95.86,46.52,121.65,29.61,293.64,716.48,439.25,61.31,1.0,0.04,0.6453
+FARM-1437,Tanzania,Mwanza,Smallholder Subsistence,Rainfed,Short Rains 2022,Cassava,4.09,19.84,81.15,66.94,5432.18,28.72,74.48,120.64,33.26,257.1,1051.54,4380.64,416.59,12.0,7.84,3.8408
+FARM-1438,Nigeria,Niger,Mixed Farming,Partial Irrigation,Short Rains 2019,Wheat,3.96,2.48,9.82,242.94,2385.67,43.53,107.49,93.77,17.97,262.76,1040.53,1345.14,129.27,2.0,0.48,1.0816
+FARM-1439,Kenya,Coast,Intensive Commercial,Partial Irrigation,Long Rains 2022,Coffee,6.4,1.05,6.72,1436.15,9650.93,146.26,132.46,336.17,40.84,655.73,4196.67,5454.26,129.97,0.8,0.25,0.4566
+FARM-1440,Tanzania,Mwanza,Intensive Commercial,Rainfed,Short Rains 2023,Coffee,4.66,1.39,6.48,1376.17,8917.58,175.59,131.14,171.75,51.63,530.11,2470.31,6447.27,260.99,0.8,0.59,0.3852
+FARM-1441,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Long Rains 2019,Cowpea,6.63,1.11,7.36,575.81,4237.96,44.08,20.01,57.34,21.71,143.14,949.02,3288.94,346.56,0.7,0.41,0.2486
+FARM-1442,Uganda,Eastern,Intensive Commercial,Rainfed,Short Rains 2023,Tomato,2.04,27.3,55.69,167.96,9353.69,61.77,147.96,239.41,57.15,506.29,1032.83,8320.86,805.64,15.0,12.3,3.0143
+FARM-1443,Ethiopia,Oromia,Intensive Commercial,Rainfed,Long Rains 2019,Coffee,6.89,0.47,3.24,2101.08,6807.5,176.79,120.13,262.01,59.04,617.97,4257.81,2549.69,59.88,0.8,-0.33,0.2941
+FARM-1444,Nigeria,Niger,Intensive Commercial,Partial Irrigation,Short Rains 2020,Maize,3.46,2.25,7.79,233.59,1819.67,41.45,134.51,113.0,36.37,325.33,1125.64,694.03,61.66,2.1,0.15,1.3927
+FARM-1445,Kenya,Western,Intensive Commercial,Rainfed,Short Rains 2021,Tomato,2.66,27.2,72.35,140.09,10135.51,30.46,144.84,138.72,54.82,368.84,981.11,9154.4,933.07,15.0,12.2,2.6329
+FARM-1446,Tanzania,Arusha,Intensive Commercial,Irrigated,Long Rains 2020,Cassava,7.2,22.17,159.66,105.82,16895.22,35.58,67.26,113.93,51.9,268.67,1934.42,14960.8,773.4,12.0,10.17,2.5389
+FARM-1447,Tanzania,Dodoma,Intensive Commercial,Partial Irrigation,Long Rains 2020,Groundnut,0.56,1.2,0.67,619.27,414.91,85.61,43.46,125.59,40.94,295.6,165.54,249.37,150.64,1.0,0.2,0.4773
+FARM-1448,Nigeria,Kano,Mixed Farming,Rainfed,Short Rains 2022,Coffee,4.85,1.55,7.52,1280.06,9626.05,153.02,204.23,321.87,48.78,727.9,3530.31,6095.74,172.67,0.8,0.75,0.5686
+FARM-1449,Ethiopia,Tigray,Smallholder Subsistence,Rainfed,Short Rains 2019,Wheat,4.04,2.85,11.51,372.87,4291.73,37.73,159.71,115.87,29.06,342.37,1383.17,2908.56,210.28,2.0,0.85,0.9182
+FARM-1450,Nigeria,Niger,Intensive Commercial,Irrigated,Long Rains 2019,Wheat,4.34,2.71,11.77,332.09,3908.7,49.74,195.66,115.88,28.01,389.29,1689.52,2219.18,131.35,2.0,0.71,1.1722
+FARM-1451,Nigeria,Enugu,Mixed Farming,Rainfed,Long Rains 2021,Coffee,5.22,1.09,5.69,1772.86,10087.57,145.63,166.68,297.48,16.23,626.02,3267.82,6819.75,208.69,0.8,0.29,0.3531
+FARM-1452,Tanzania,Mwanza,Smallholder Subsistence,Rainfed,Long Rains 2023,Rice,2.39,3.66,8.75,335.04,2931.6,50.28,188.97,160.38,55.96,455.59,1088.86,1842.74,169.24,2.8,0.86,1.3598
+FARM-1453,Kenya,Coast,Smallholder Commercial,Rainfed,Short Rains 2021,Cowpea,6.37,0.59,3.76,395.2,1485.95,40.82,21.32,99.2,58.53,219.87,1400.57,85.38,6.1,0.7,-0.11,0.5564
+FARM-1454,Uganda,Northern,Intensive Commercial,Rainfed,Long Rains 2022,Cowpea,5.46,0.98,5.35,391.82,2096.24,42.33,53.67,52.72,26.9,175.62,958.89,1137.35,118.61,0.7,0.28,0.4482
+FARM-1455,Nigeria,Kano,Intensive Commercial,Irrigated,Short Rains 2022,Rice,2.76,5.14,14.18,430.49,6104.35,61.3,145.58,170.56,36.36,413.8,1142.09,4962.26,434.49,2.8,2.34,0.9612
+FARM-1456,Kenya,Western,Mixed Farming,Irrigated,Long Rains 2019,Tomato,3.37,18.69,62.98,204.84,12900.82,68.23,89.74,189.07,30.92,377.96,1273.73,11627.09,912.84,15.0,3.69,1.8451
+FARM-1457,Tanzania,Mbeya,Mixed Farming,Rainfed,Short Rains 2021,Sorghum,6.52,1.23,8.02,225.94,1812.04,31.53,97.27,64.51,45.24,238.55,1555.35,256.69,16.5,1.4,-0.17,1.0558
+FARM-1458,Kenya,Western,Mixed Farming,Partial Irrigation,Long Rains 2020,Yam,0.58,5.11,2.96,86.8,256.93,92.9,66.26,168.55,30.82,358.53,207.95,48.98,23.55,10.0,-4.89,4.1305
+FARM-1459,Ethiopia,SNNPR,Smallholder Subsistence,Partial Irrigation,Long Rains 2019,Groundnut,1.19,1.73,2.06,596.98,1229.78,91.77,77.52,108.28,46.86,324.43,386.07,843.71,218.54,1.0,0.73,0.5435
+FARM-1460,Nigeria,Kano,Intensive Commercial,Partial Irrigation,Long Rains 2020,Coffee,6.52,0.62,4.04,1310.85,5295.83,98.43,167.13,282.1,18.41,566.07,3690.78,1605.05,43.49,0.8,-0.18,0.4318
+FARM-1461,Tanzania,Dodoma,Mixed Farming,Rainfed,Short Rains 2021,Tomato,6.36,14.1,89.68,129.98,11656.61,45.54,179.6,153.57,51.58,430.29,2736.64,8919.97,325.95,15.0,-0.9,3.3104
+FARM-1462,Kenya,Eastern,Smallholder Commercial,Partial Irrigation,Short Rains 2022,Cassava,3.44,17.04,58.62,56.51,3312.62,33.52,65.88,129.12,19.78,248.3,854.15,2458.47,287.83,12.0,5.04,4.3939
+FARM-1463,Tanzania,Tanga,Smallholder Subsistence,Rainfed,Short Rains 2019,Sorghum,1.03,2.04,2.1,251.04,527.18,20.47,84.84,89.17,15.04,209.52,215.81,311.37,144.28,1.4,0.64,0.8346
+FARM-1464,Nigeria,Enugu,Smallholder Commercial,Rainfed,Long Rains 2021,Tomato,7.28,20.64,150.26,202.46,30421.64,67.6,129.07,176.69,52.98,426.34,3103.76,27317.88,880.15,15.0,5.64,2.1058
+FARM-1465,Nigeria,Oyo,Intensive Commercial,Irrigated,Long Rains 2019,Groundnut,1.41,1.55,2.19,697.48,1527.48,66.67,45.14,73.31,59.87,244.99,345.44,1182.04,342.18,1.0,0.55,0.3513
+FARM-1466,Nigeria,Niger,Smallholder Subsistence,Irrigated,Short Rains 2021,Wheat,6.2,2.15,13.33,236.56,3153.34,54.41,196.43,106.25,28.45,385.54,2390.35,762.99,31.92,2.0,0.15,1.6298
+FARM-1467,Tanzania,Mwanza,Smallholder Subsistence,Irrigated,Short Rains 2022,Yam,6.01,8.53,51.24,99.31,5088.64,117.58,69.65,148.92,17.83,353.98,2127.42,2961.22,139.19,10.0,-1.47,3.5644
+FARM-1468,Uganda,Gulu,Intensive Commercial,Rainfed,Short Rains 2022,Sorghum,0.78,0.9,0.7,252.41,176.69,21.07,58.27,98.43,45.03,222.8,173.78,2.91,1.67,1.4,-0.5,0.8827
+FARM-1469,Tanzania,Tanga,Smallholder Commercial,Rainfed,Long Rains 2020,Wheat,0.78,1.35,1.05,317.69,333.57,51.49,190.98,63.21,46.56,352.24,274.75,58.82,21.41,2.0,-0.65,1.1088
+FARM-1470,Kenya,Rift Valley,Mixed Farming,Rainfed,Long Rains 2019,Rice,3.92,2.1,8.23,398.21,3277.27,72.71,112.76,149.71,50.96,386.14,1513.67,1763.6,116.51,2.8,-0.7,0.9697
+FARM-1471,Kenya,Rift Valley,Mixed Farming,Irrigated,Long Rains 2022,Groundnut,2.93,2.21,6.48,572.79,3711.68,56.87,71.82,117.59,49.39,295.67,866.31,2845.37,328.45,1.0,1.21,0.5162
+FARM-1472,Uganda,Northern,Smallholder Subsistence,Rainfed,Short Rains 2019,Yam,1.56,10.4,16.22,149.63,2427.0,104.27,61.93,192.57,16.83,375.6,585.94,1841.06,314.21,10.0,0.4,2.5102
+FARM-1473,Nigeria,Enugu,Smallholder Commercial,Rainfed,Long Rains 2022,Coffee,7.1,0.5,3.55,1207.22,4285.63,172.61,233.08,268.75,27.77,702.21,4985.69,-700.06,-14.04,0.8,-0.3,0.5817
+FARM-1474,Tanzania,Tanga,Smallholder Commercial,Rainfed,Short Rains 2020,Rice,4.42,2.94,12.99,467.62,6074.38,64.42,104.51,118.0,37.49,324.42,1433.94,4640.44,323.61,2.8,0.14,0.6938
+FARM-1475,Nigeria,Enugu,Intensive Commercial,Rainfed,Short Rains 2021,Sorghum,4.68,1.13,5.29,278.26,1472.0,44.42,93.32,101.76,59.41,298.91,1398.9,73.1,5.23,1.4,-0.27,1.0742
+FARM-1476,Uganda,Northern,Mixed Farming,Rainfed,Short Rains 2020,Cowpea,1.95,1.04,2.03,521.31,1058.26,54.06,38.98,58.82,45.16,197.02,384.19,674.07,175.45,0.7,0.34,0.3779
+FARM-1477,Nigeria,Kano,Smallholder Commercial,Irrigated,Long Rains 2021,Yam,2.39,16.27,38.9,169.01,6574.49,96.25,45.22,105.25,39.18,285.9,683.3,5891.19,862.17,10.0,6.27,1.6916
+FARM-1478,Kenya,Rift Valley,Smallholder Subsistence,Rainfed,Long Rains 2023,Cowpea,7.21,0.98,7.07,498.18,3522.13,34.78,27.95,83.84,29.66,176.23,1270.62,2251.51,177.2,0.7,0.28,0.3537
+FARM-1479,Nigeria,Niger,Smallholder Commercial,Irrigated,Short Rains 2019,Groundnut,7.02,1.31,9.21,466.2,4293.7,73.55,54.22,123.43,21.52,272.72,1914.49,2379.21,124.27,1.0,0.31,0.585
+FARM-1480,Uganda,Western,Mixed Farming,Rainfed,Long Rains 2022,Rice,3.93,2.18,8.57,351.72,3014.24,50.79,140.31,103.21,40.59,334.9,1316.16,1698.08,129.02,2.8,-0.62,0.9522
+FARM-1481,Ethiopia,Amhara,Intensive Commercial,Irrigated,Short Rains 2022,Cassava,1.78,16.01,28.5,103.18,2940.63,35.09,87.37,131.04,42.52,296.02,526.92,2413.71,458.08,12.0,4.01,2.869
+FARM-1482,Kenya,Western,Smallholder Subsistence,Irrigated,Short Rains 2020,Wheat,6.93,2.78,19.23,379.22,7292.4,55.71,182.07,79.54,47.85,365.17,2530.63,4761.77,188.17,2.0,0.78,0.963
+FARM-1483,Kenya,Central,Smallholder Commercial,Partial Irrigation,Long Rains 2022,Yam,7.6,16.88,128.29,169.83,21787.49,93.42,42.21,199.13,48.01,382.77,2909.05,18878.44,648.96,10.0,6.88,2.2538
+FARM-1484,Uganda,Central,Intensive Commercial,Irrigated,Long Rains 2023,Tomato,6.57,29.16,191.6,135.68,25996.29,49.81,88.31,217.9,46.19,402.21,2642.52,23353.77,883.77,15.0,14.16,2.9644
+FARM-1485,Tanzania,Arusha,Mixed Farming,Rainfed,Short Rains 2021,Rice,5.36,1.82,9.76,375.96,3669.37,52.19,184.4,185.79,48.63,471.01,2524.61,1144.76,45.34,2.8,-0.98,1.2528
+FARM-1486,Nigeria,Benue,Intensive Commercial,Rainfed,Long Rains 2020,Cowpea,6.42,0.7,4.49,466.07,2092.65,44.0,54.42,53.53,55.2,207.15,1329.9,762.75,57.35,0.7,0.0,0.4445
+FARM-1487,Ethiopia,Sidama,Intensive Commercial,Rainfed,Long Rains 2021,Maize,5.74,3.22,18.48,260.53,4814.59,36.21,148.47,109.64,30.11,324.43,1862.23,2952.36,158.54,2.1,1.12,1.2453
+FARM-1488,Nigeria,Oyo,Smallholder Subsistence,Irrigated,Long Rains 2019,Yam,3.24,16.31,52.85,116.56,6160.2,74.02,67.94,106.7,46.92,295.58,957.68,5202.52,543.24,10.0,6.31,2.5359
+FARM-1489,Kenya,Central,Smallholder Subsistence,Irrigated,Short Rains 2020,Yam,6.03,18.47,111.4,167.11,18616.05,116.23,77.66,176.09,29.42,399.4,2408.38,16207.67,672.97,10.0,8.47,2.39
+FARM-1490,Ethiopia,Sidama,Smallholder Subsistence,Rainfed,Long Rains 2021,Tomato,3.3,17.95,59.23,200.23,11859.62,63.18,127.02,189.15,52.14,431.49,1423.92,10435.7,732.89,15.0,2.95,2.155
+FARM-1491,Ethiopia,Tigray,Smallholder Subsistence,Rainfed,Short Rains 2021,Coffee,7.19,0.95,6.83,1280.17,8743.56,169.79,166.14,341.33,19.92,697.18,5012.72,3730.84,74.43,0.8,0.15,0.5446
+FARM-1492,Ethiopia,Oromia,Smallholder Commercial,Rainfed,Short Rains 2022,Rice,4.41,3.7,16.32,338.63,5526.44,78.78,164.97,113.2,30.6,387.55,1709.1,3817.34,223.35,2.8,0.9,1.1445
+FARM-1493,Tanzania,Tanga,Smallholder Commercial,Rainfed,Long Rains 2021,Maize,0.67,3.85,2.58,296.89,765.98,45.59,113.59,106.3,44.51,309.99,207.69,558.29,268.81,2.1,1.75,1.0441
+FARM-1494,Ethiopia,Tigray,Intensive Commercial,Irrigated,Long Rains 2023,Coffee,2.78,0.7,1.95,1989.35,3879.23,97.17,161.6,246.85,58.68,564.3,1568.75,2310.48,147.28,0.8,-0.1,0.2837
+FARM-1495,Nigeria,Kaduna,Intensive Commercial,Rainfed,Long Rains 2021,Yam,5.14,7.09,36.44,133.53,4865.83,74.58,48.77,170.81,55.71,349.87,1798.33,3067.5,170.57,10.0,-2.91,2.6202
+FARM-1496,Kenya,Central,Smallholder Subsistence,Rainfed,Short Rains 2019,Groundnut,4.81,1.13,5.44,510.9,2779.3,60.26,65.36,109.93,59.01,294.56,1416.83,1362.47,96.16,1.0,0.13,0.5766
+FARM-1497,Kenya,Nyanza,Smallholder Commercial,Partial Irrigation,Long Rains 2023,Cowpea,2.76,1.14,3.15,451.14,1421.09,39.98,25.82,72.9,29.41,168.11,463.98,957.11,206.28,0.7,0.44,0.3726
+FARM-1498,Nigeria,Enugu,Mixed Farming,Rainfed,Long Rains 2023,Wheat,4.05,1.72,6.97,369.92,2578.34,69.32,153.11,70.3,40.44,333.17,1349.34,1229.0,91.08,2.0,-0.28,0.9007
+FARM-1499,Tanzania,Dodoma,Smallholder Subsistence,Rainfed,Short Rains 2022,Cassava,5.59,9.64,53.89,51.49,2774.8,35.44,53.22,108.59,29.69,226.94,1268.59,1506.21,118.73,12.0,-2.36,4.4075
+FARM-1500,Uganda,Gulu,Smallholder Commercial,Rainfed,Short Rains 2023,Groundnut,1.97,0.7,1.38,654.84,903.68,83.85,77.88,128.55,32.75,323.03,636.37,267.31,42.01,1.0,-0.3,0.4933
